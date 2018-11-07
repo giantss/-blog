@@ -6,21 +6,33 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://giantss.github.io/blog">
-  <title>一个mvp框架的简单号码归属地信息查询demo | grantss的博客</title>
+  <title>Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义) | grantss的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="环境  Android studio3.1.4 gradle:3.1.4、minSdkVersion 21、 targetSdkVersion 28   使用到的第三方框架 gson okhttp">
+  <meta name="description" content="前言Mapbox词汇表英文文档  本文词汇表按照字母顺序排序  A access token (访问令牌) 要使用 Mapbox 的任何工具，API 或 SDK ，您需要一个 Mapbox access token。Mapbox使用access token将 API 资源请求与您的帐户相关联。您可以在 access token page 上找到所有access token，创建新令牌或删除现有令牌">
+<meta name="keywords" content="地图,Mapbox,翻译">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一个mvp框架的简单号码归属地信息查询demo">
-<meta property="og:url" content="https://giantss.github.io/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/index.html">
+<meta property="og:title" content="Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义)">
+<meta property="og:url" content="https://giantss.github.io/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/index.html">
 <meta property="og:site_name" content="grantss的博客">
-<meta property="og:description" content="环境  Android studio3.1.4 gradle:3.1.4、minSdkVersion 21、 targetSdkVersion 28   使用到的第三方框架 gson okhttp">
+<meta property="og:description" content="前言Mapbox词汇表英文文档  本文词汇表按照字母顺序排序  A access token (访问令牌) 要使用 Mapbox 的任何工具，API 或 SDK ，您需要一个 Mapbox access token。Mapbox使用access token将 API 资源请求与您的帐户相关联。您可以在 access token page 上找到所有access token，创建新令牌或删除现有令牌">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-c28c19db5774e2e8.gif?imageMogr2/auto-orient/strip">
-<meta property="og:updated_time" content="2018-10-31T03:11:53.000Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-e48edfb448bc40b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-0e9dcc0c8e6e9972.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-809d720111fc8871.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-9aadc2caf2c51c98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-19fbc96488d5ea9b.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-35084278722bcb52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-7130cea4bbe18bd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-74fc7f4b276932a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-76d9207d9108e03e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-5c072c64ccdff446.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-4cf9bb4b95296225.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5683553-de5201774fca5e0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2018-11-07T11:51:43.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一个mvp框架的简单号码归属地信息查询demo">
-<meta name="twitter:description" content="环境  Android studio3.1.4 gradle:3.1.4、minSdkVersion 21、 targetSdkVersion 28   使用到的第三方框架 gson okhttp">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5683553-c28c19db5774e2e8.gif?imageMogr2/auto-orient/strip">
+<meta name="twitter:title" content="Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义)">
+<meta name="twitter:description" content="前言Mapbox词汇表英文文档  本文词汇表按照字母顺序排序  A access token (访问令牌) 要使用 Mapbox 的任何工具，API 或 SDK ，您需要一个 Mapbox access token。Mapbox使用access token将 API 资源请求与您的帐户相关联。您可以在 access token page 上找到所有access token，创建新令牌或删除现有令牌">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5683553-e48edfb448bc40b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800">
   
     <link rel="alternative" href="/atom.xml" title="grantss的博客" type="application/atom+xml">
   
@@ -152,45 +164,800 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-一个mvp框架的简单号码归属地信息查询demo" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      一个mvp框架的简单号码归属地信息查询demo
+      Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义)
     </h1>
   
 
         
-        <a href="/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/" class="archive-article-date">
-  	<time datetime="2018-10-31T02:59:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-31</time>
+        <a href="/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/" class="archive-article-date">
+  	<time datetime="2018-11-07T11:24:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-07</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h1><blockquote>
-<ul>
-<li>Android studio3.1.4</li>
-<li>gradle:3.1.4、minSdkVersion 21、 targetSdkVersion 28</li>
-</ul>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><a href="https://www.mapbox.com/help/glossary" target="_blank" rel="noopener">Mapbox词汇表英文文档</a></p>
+<p> <strong><em>本文词汇表按照字母顺序排序</em></strong></p>
+<hr>
+<h1 id="A"><a href="#A" class="headerlink" title="A"></a>A</h1><hr>
+<h5 id="access-token-访问令牌"><a href="#access-token-访问令牌" class="headerlink" title="access token (访问令牌)"></a><a href="https://www.mapbox.com/help/define-access-token/" target="_blank" rel="noopener">access token</a> (访问令牌)</h5><blockquote>
+<p>要使用 <code>Mapbox</code> 的任何工具，<code>API</code> 或 <code>SDK</code> ，您需要一个 <code>Mapbox</code> <strong>access token</strong>。<code>Mapbox</code>使用<strong>access token</strong>将 <code>API</code> 资源请求与您的帐户相关联。您可以在 <a href="https://www.mapbox.com/account/access-tokens" target="_blank" rel="noopener"><strong>access token page</strong></a> 上找到所有<strong>access token</strong>，创建新令牌或删除现有令牌。</p>
 </blockquote>
-<h1 id="使用到的第三方框架"><a href="#使用到的第三方框架" class="headerlink" title="使用到的第三方框架"></a>使用到的第三方框架</h1><ul>
-<li><a href="https://github.com/google/gson" target="_blank" rel="noopener">gson</a></li>
-<li><a href="https://github.com/square/okhttp" target="_blank" rel="noopener">okhttp</a></li>
-</ul>
-<a id="more"></a>
-<h1 id="数据源"><a href="#数据源" class="headerlink" title="数据源"></a>数据源</h1><p>淘宝API：<a href="https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18888888888" target="_blank" rel="noopener">https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18888888888</a></p>
-<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>Android studio3.0+ gradle的引入包的方式使用 “implementation”或者”api” “”代替”compile”。<br>比如</p>
 <blockquote>
-<p>Android studio2.0+使用: compile ‘com.squareup.okio:okio:1.9.0’<br>Android studio3.0+使用: implementation ‘com.squareup.okio:okio:1.9.0’</p>
+<p>以下是我们的 <code>API</code> 中的<strong>access token page</strong>：<br><a href="https://api.mapbox.com/v4/mapbox.emerald/page.html?access_token=pk.eyJ1Ijoiemhvbm5ncGVuZyIsImEiOiJjam5rMXhzNjYwbG1wM3BtenNpczV0NXgxIn0.RmIRNHLPKgyJtDvrWhiQQg" target="_blank" rel="noopener">https://api.mapbox.com/v4/mapbox.emerald/page.html?access_token=pk.eyJ1Ijoiemhvbm5ncGVuZyIsImEiOiJjam5rMXhzNjYwbG1wM3BtenNpczV0NXgxIn0.RmIRNHLPKgyJtDvrWhiQQg</a></p>
 </blockquote>
-<h1 id="演示图"><a href="#演示图" class="headerlink" title="演示图"></a>演示图</h1><p><img src="https://upload-images.jianshu.io/upload_images/5683553-c28c19db5774e2e8.gif?imageMogr2/auto-orient/strip" alt="diagram.gif"></p>
-<p><a href="https://github.com/giantss/MVPDemo" target="_blank" rel="noopener">demo下载点击这里</a></p>
-<p>本文原创出自 <a href="https://giantss.github.io/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/">https://giantss.github.io/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/</a> 翻版必究</p>
+<h4 id="Public-vs-secret-tokens-公共vs-secret令牌"><a href="#Public-vs-secret-tokens-公共vs-secret令牌" class="headerlink" title="Public vs.secret tokens (公共vs.secret令牌)"></a>Public vs.secret tokens (公共vs.secret令牌)</h4><blockquote>
+<p>创建访问令牌时，您可以选择为其提供一组零个或多个范围，这些范围定义该令牌可以访问哪些 <code>Mapbox API</code> 以及可以使用哪些方法来访问它们。</p>
+</blockquote>
+<h4 id="Public-scopes-and-tokens-公共范围和令牌"><a href="#Public-scopes-and-tokens-公共范围和令牌" class="headerlink" title="Public scopes and tokens (公共范围和令牌)"></a>Public scopes and tokens (公共范围和令牌)</h4><a id="more"></a>
+<blockquote>
+<p><strong>Public scopes</strong>仅允许从 <code>API</code> 检索数据。这些令牌放入公共应用程序更安全，因为它们不能用于更改帐户中的数据。具有公共范围的标记以 <code>sk</code> 开头。</p>
+</blockquote>
+<blockquote>
+<p>创建公共令牌后，可以重命名令牌并添加和删除公共范围。秘密范围无法添加到公共令牌中。</p>
+</blockquote>
+<h4 id="Secret-scopes-and-tokens-私密范围和令牌"><a href="#Secret-scopes-and-tokens-私密范围和令牌" class="headerlink" title="Secret scopes and tokens (私密范围和令牌)"></a>Secret scopes and tokens (私密范围和令牌)</h4><blockquote>
+<p><strong>Secret scopes</strong>允许创建和修改对 <code>Mapbox API</code> 的访问以及对可能包含特定于帐户的信息的 <code>API</code> 的访问。这些令牌只能在安全的上下文中使用。具有私密范围的标记以 <code>sk</code> 开头。</p>
+</blockquote>
+<blockquote>
+<p>创建私密令牌后，只能查看一次 - 如果您刷新或离开 <code>API</code> 访问令牌页面，令牌本身将消失。<br>可以重命名令牌，并随时添加或删除任何作用域。</p>
+</blockquote>
+<h4 id="Default-Public-Token-默认的公共令牌"><a href="#Default-Public-Token-默认的公共令牌" class="headerlink" title="Default Public Token (默认的公共令牌)"></a>Default Public Token (默认的公共令牌)</h4><blockquote>
+<p>您的帐户将始终至少拥有一个<strong>Default Public Token</strong>，并将作为您的<strong>Default Public Token</strong>显示在 <code>Mapbox</code>网站上。<br>如果删除此令牌，则另一个公共令牌将成为您的<strong>Default Public Token</strong>。<br>当您登录到您的帐户时，此令牌将自动嵌入到 <code>Mapbox.com</code> 上的示例代码中。</p>
+</blockquote>
+<blockquote>
+<p>您可能还想阅读：<a href="https://www.mapbox.com/help/create-api-access-token/" target="_blank" rel="noopener">如何创建一个API访问令牌？</a></p>
+</blockquote>
+<h1 id="annotation-标注物"><a href="#annotation-标注物" class="headerlink" title="annotation (标注物)"></a><a href="https://www.mapbox.com/help/define-annotation/" target="_blank" rel="noopener">annotation</a> (标注物)</h1><blockquote>
+<p>在适用于 <a href="https://www.mapbox.com/ios-sdk/" target="_blank" rel="noopener">iOS的Mapbox Maps SDK</a> 中，<strong>annotation</strong> 是地图上的已定义位置，由自定义 <a href="https://developer.apple.com/documentation/uikit/uiview" target="_blank" rel="noopener">UIView</a> 或 <a href="https://developer.apple.com/documentation/uikit/uiimage" target="_blank" rel="noopener">UIImage</a> 表示。您可以使用注释来表示点数据，例如城市中的餐馆，沿路线的公交车站或地震位置。您可以通过多种方式向地图添加注释。有关添加注释的详细信息，请参阅 <a href="https://www.mapbox.com/ios-sdk/api/4.5.0/adding-points-to-a-map.html" target="_blank" rel="noopener">Mapbox Maps SDK for iOS文档</a> 中的添加指向地图指南。</p>
+</blockquote>
+<h1 id="API-应用编程接口"><a href="#API-应用编程接口" class="headerlink" title="API (应用编程接口)"></a><a href="https://www.mapbox.com/help/define-api/" target="_blank" rel="noopener">API</a> (应用编程接口)</h1><blockquote>
+<p><strong>API</strong> 是软件库应如何相互交互的规范。将 <code>API</code> 视为从网站或服务获取数据的一种方式，而无需亲自访问该网站或服务。 查看 <code>Developers</code> 页面上的所有 <code>Mapbox API</code> 。</p>
+</blockquote>
+<blockquote>
+<p>查看所有的Mapbox API <a href="https://www.mapbox.com/developers" target="_blank" rel="noopener">开发者页面</a>。</p>
+</blockquote>
+<h1 id="attribution-Mapbox的logo"><a href="#attribution-Mapbox的logo" class="headerlink" title="attribution (Mapbox的logo)"></a><a href="https://www.mapbox.com/help/define-attribution/" target="_blank" rel="noopener">attribution</a> (Mapbox的logo)</h1><blockquote>
+<p><strong>attribution</strong> 是放置在所有 <code>Mapbox</code> 地图上的两个视觉元素的组合，表明使用 <code>Mapbox</code> 工具和数据创建了地图，类似百度和高德的左下的角标。</p>
+</blockquote>
+<blockquote>
+<p><code>Mapbox</code> 要求所有地图都包含 <code>Mapbox</code> 字标和文本。 <code>Mapbox</code> 字标是一个小图像，包含程式化的单词 <code>Mapbox</code> 和 <code>Mapbox</code> 徽标。<br>文本属性至少包含三个链接：©Mapbox，©OpenStreetMap和改进此地图。<br>由于 <code>OpenStreetMap</code> 的数据源 <code>ODbL</code> 许可证，使用 <code>Mapbox Streets tileset</code> 时严格要求此属性。<br>有关如何以及何时需要 <code>attribution</code> 的详细信息，请参阅我们的 <a href="https://www.mapbox.com/help/attribution/" target="_blank" rel="noopener">attribution guide</a>。</p>
+</blockquote>
+<hr>
+<h1 id="B"><a href="#B" class="headerlink" title="B"></a>B</h1><hr>
+<h1 id="baselayer-基础图层"><a href="#baselayer-基础图层" class="headerlink" title="baselayer (基础图层)"></a><a href="https://www.mapbox.com/help/define-baselayer/" target="_blank" rel="noopener">baselayer</a> (基础图层)</h1><blockquote>
+<p><strong>baselayer</strong> 通常是指您在 <a href="https://www.mapbox.com/help/define-mapbox-studio-classic" target="_blank" rel="noopener">Mapbox Studio Classic</a> 或 <a href="https://www.mapbox.com/api-documentation/#maps" target="_blank" rel="noopener">Mapbox classic styles</a> 中设计的地图样式。<strong>baselayer</strong> 提供地理上下文，并作为地图的起点。</p>
+</blockquote>
+<h1 id="bearing-方位"><a href="#bearing-方位" class="headerlink" title="bearing (方位)"></a><a href="https://www.mapbox.com/help/define-bearing/" target="_blank" rel="noopener">bearing</a> (方位)</h1><blockquote>
+<p><strong>bearing</strong> 或 <a href="https://www.mapbox.com/help/define-heading" target="_blank" rel="noopener">航向</a>，是你面对从正北上的罗盘的角度顺时针测得的方向，顺时针测量为指南针上的真北角（北为0°，东为90°，南为180°，和西是270°）。</p>
+</blockquote>
+<h1 id="bounding-box-边界框"><a href="#bounding-box-边界框" class="headerlink" title="bounding box (边界框)"></a><a href="https://www.mapbox.com/help/define-bounding-box/" target="_blank" rel="noopener">bounding box</a> (边界框)</h1><blockquote>
+<p><strong>bounding box</strong> 是用于描述地图的特定区域的机制。它通常表示为坐标对的数组，第一个坐标对指的是盒子的西南角，第二个坐标对指盒子的东北角。创建地图或启动地理编码请求的任何 <code>Mapbox</code> 库都有一个类或对象，用于在代码中使用<strong>bounding box</strong>：创建地图或发起地址解析请求任何 <code>Mapbox</code> 库中有在代码中使用<strong>bounding box</strong>类或对象：</p>
+</blockquote>
+<ul>
+<li><a href="https://www.mapbox.com/help/define-mapbox-js" target="_blank" rel="noopener">Mapbox.js</a> and <a href="https://www.mapbox.com/help/define-leaflet" target="_blank" rel="noopener">Leaflet</a> - <a href="https://www.mapbox.com/mapbox.js/api/v2.3.0/l-latlngbounds/" target="_blank" rel="noopener"><code>L.LatLngBounds</code></a></li>
+<li><a href="https://www.mapbox.com/help/define-mapbox-gl-js" target="_blank" rel="noopener">Mapbox GL JS</a> - <a href="https://www.mapbox.com/mapbox-gl-js/api/#LngLatBounds" target="_blank" rel="noopener"><code>LngLatBounds</code></a></li>
+<li><a href="https://www.mapbox.com/help/define-turf" target="_blank" rel="noopener">Turf.js</a> - <a href="http://turfjs.org/docs#bbox" target="_blank" rel="noopener"><code>turf.bbox</code></a></li>
+<li><a href="https://www.mapbox.com/help/define-ios-sdk" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a> - <a href="https://www.mapbox.com/ios-sdk/api/3.1.1/Structs/MGLCoordinateBounds.html" target="_blank" rel="noopener"><code>MGLCoordinateBounds</code></a></li>
+<li><a href="https://www.mapbox.com/help/define-android-sdk" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a> - <a href="https://www.mapbox.com/android-docs/api/map-sdk/5.5.1/com/mapbox/mapboxsdk/geometry/LatLngBounds.html" target="_blank" rel="noopener"><code>BoundingBox</code> class</a></li>
+<li><a href="https://www.mapbox.com/android-docs/java-sdk/overview/geocoder" target="_blank" rel="noopener">Mapbox Java SDK</a> – <a href="https://www.mapbox.com/android-docs/api/mapbox-java/libjava-services/3.0.0/com/mapbox/api/geocoding/v5/MapboxGeocoding.Builder.html#bbox-java.lang.String-" target="_blank" rel="noopener"><code>MapboxGeocoding.Builder.bbox()</code> method</a></li>
+<li><a href="https://github.com/mapbox/MapboxGeocoder.swift" target="_blank" rel="noopener">MapboxGeocoder.swift</a> – <a href="https://github.com/mapbox/MapboxGeocoder.swift/blob/master/MapboxGeocoder/MBRectangularRegion.swift" target="_blank" rel="noopener"><code>RectangularRegion</code> class</a></li>
+</ul>
+<hr>
+<h1 id="C"><a href="#C" class="headerlink" title="C"></a>C</h1><hr>
+<h1 id="camera-摄像机"><a href="#camera-摄像机" class="headerlink" title="camera (摄像机)"></a><a href="https://www.mapbox.com/help/define-camera/" target="_blank" rel="noopener">camera</a> (摄像机)</h1><blockquote>
+<p>在使用 <code>Mapbox GL</code> 的地图中，<strong>camera</strong>是地图的视野。<strong>camera</strong>的视口是由几个因素决定：</p>
+<ul>
+<li><strong>中心：</strong>定义地图的中心坐标。</li>
+<li><strong>缩放级别：</strong>一个数字，确定视口有多接近地图的表面。缩放级别为零将显示整个世界。缩放级别越高，视口越接近地图的表面。</li>
+<li><strong>间距：</strong>以度为单位测量地平线的角度，范围在0到60度之间。零度会产生二维地图，就好像您的视线与地球表面形成一个垂直角度。。</li>
+<li><strong>方位：</strong>目的地的旋转角度，以度为单位从北向逆时针测量，范围在0到360度之间。</li>
+</ul>
+</blockquote>
+<h1 id="CartoCSS"><a href="#CartoCSS" class="headerlink" title="CartoCSS"></a><a href="https://www.mapbox.com/help/define-cartocss/" target="_blank" rel="noopener">CartoCSS</a></h1><blockquote>
+<p><strong>CartoCSS</strong> 是 <code>Mapbox Studio Classic</code> 用于构建经典样式的语言。您可以使用 <code>CartoCSS</code> 选择颜色，在特定缩放级别应用不同的渲染，并且通常将样式应用于矢量数据。</p>
+</blockquote>
+<p>以下是<strong>CartoCSS</strong>样式道路标签的示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#road_label &#123;</span><br><span class="line">  text-name: @name;</span><br><span class="line">  text-placement: line;</span><br><span class="line">  text-face-name: @sans;</span><br><span class="line">  text-fill: #333;</span><br><span class="line">  text-halo-fill: fadeout(#fff, 75%);</span><br><span class="line">  text-halo-radius: 2;</span><br><span class="line">  text-halo-rasterizer: fast;</span><br><span class="line">  text-size: 12;</span><br><span class="line">  text-margin: 20;</span><br><span class="line">  text-avoid-edges: true;</span><br><span class="line">  [zoom&gt;=15] &#123; text-size: 13; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>顾名思义，<code>CartoCSS</code> 就像 <code>CSS</code>，用于 <code>HTML</code> 样式的语言。 <code>CartoCSS</code> 是地图数据的 <code>CSS</code>。阅读  <a href="https://www.mapbox.com/carto/" target="_blank" rel="noopener">CartoCSS 文档</a> 以了解更多信息。</p>
+</blockquote>
+<h1 id="classic-style-经典样式"><a href="#classic-style-经典样式" class="headerlink" title="classic style (经典样式)"></a><a href="https://www.mapbox.com/help/define-classic-style/" target="_blank" rel="noopener">classic style</a> (经典样式)</h1><blockquote>
+<p>在 <a href="https://www.mapbox.com/help/define-mapbox-studio-classic" target="_blank" rel="noopener">Mapbox Studio Classic</a> 中，<code>classic style</code> 包含  <a href="https://www.mapbox.com/help/define-cartocss" target="_blank" rel="noopener">CartoCSS</a> 样式表，基本精简元数据（名称，描述，属性等）以及对 <a href="https://www.mapbox.com/help/define-source" target="_blank" rel="noopener">source</a>的引用。 将 <code>classic style</code> 上传到 <code>Mapbox.com</code> 后，它将显示在 <a href="https://www.mapbox.com/studio/classic/styles/" target="_blank" rel="noopener">Classic styles page</a> 页面上。 </p>
+</blockquote>
+<h1 id="coordinate-坐标"><a href="#coordinate-坐标" class="headerlink" title="coordinate (坐标)"></a><a href="https://www.mapbox.com/help/define-coordinate/" target="_blank" rel="noopener">coordinate</a> (坐标)</h1><blockquote>
+<p><strong>coordinate</strong> 是纬度和经度的组合。海拔高度可以作为第三个值包含在内。</p>
+</blockquote>
+<h1 id="CSV-逗号分隔值"><a href="#CSV-逗号分隔值" class="headerlink" title="CSV (逗号分隔值)"></a><a href="https://www.mapbox.com/help/define-csv/" target="_blank" rel="noopener">CSV</a> (逗号分隔值)</h1><blockquote>
+<p> <strong>CSV</strong>  (<a href="https://zh.wikipedia.org/wiki/逗号分隔值" target="_blank" rel="noopener">维基百科解释</a>) 的格式对于表格数据很常见，例如您可以在 <code>Excel</code> 或其他电子表格中使用的格式。 <code>CSV</code> 文件不一定是可映射的，除非它们包含地理信息（如纬度和经度）。<br>阅读 <code>CSV</code> 文件疑难解答，了解有关如何格式化文件的示例。<a href="https://www.mapbox.com/help/data/airports.csv" target="_blank" rel="noopener"> Download a sample CSV file</a></p>
+</blockquote>
+<p>上传 <code>CSV</code> 文件时，请注意以下事项： </p>
+<blockquote>
+<ul>
+<li>查看 <code>Mapbox</code> 上传 <code>API</code>  <a href="https://www.mapbox.com/developers/api/uploads" target="_blank" rel="noopener">文档</a>，了解 <code>CSV</code> 文件的当前大小限制。 </li>
+<li><code>CSV</code> 文件必须采用 <code>UTF-8</code> 编码。 </li>
+<li>在 <code>Mapbox Studio</code> 或 <code>Mapbox Studio Classic</code> 中上传时，<code>CSV</code> 文件必须包含坐标（纬度和经度）。 </li>
+<li><code>CSV</code> 文件仅用于点数据。 </li>
+<li>通过 <code>CSV</code> 导入的数据将在 <code>Mapbox Studio</code> 数据集编辑器中编码为字符串类型。<br>如果要将任何导入的数据编码为数字，可以在数据集编辑器中单独编辑字段，也可以 <a href="https://www.mapbox.com/help/define-geojson" target="_blank" rel="noopener">GeoJSON format</a> 上传数据。</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="D"><a href="#D" class="headerlink" title="D"></a>D</h1><hr>
+<h1 id="data-driven-styling"><a href="#data-driven-styling" class="headerlink" title="data-driven styling"></a><a href="https://www.mapbox.com/help/define-data-driven-styling/" target="_blank" rel="noopener">data-driven styling</a></h1><blockquote>
+<p><strong>data-driven styling</strong> 允许您根据空间数据的属性设置样式。例如，使用<strong>data-driven styling</strong>，您可以根据穿越十字路口的行人数量更改交叉点处的圆的半径，根据根据每个州的人口更改状态多边形的颜色，或使用条件逻辑创建双语标签。 <code>Mapbox Studio</code>，<code>Mapbox GL JS</code>，适用于 <code>iOS</code> 的 <code>Mapbox Maps SDK</code> 以及适用于 <code>Android</code> 的 <code>Mapbox Maps SDK</code> 均提供<strong>data-driven styling</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>Property functions vs property expressions（属性函数与属性表达式）</strong> </p>
+<p>我们最近改变了<strong>data-driven styling</strong>的工作方式 - 从属性函数到属性表达式。属性表达式可帮助您实现与属性函数类似的效果，并具有更多的灵活性和功能。属性表达式在 <code>Mapbox GL JS v0.41.0</code> 中引入。虽然属性函数目前仍然可用，但它们最终将被弃用并由属性表达式替换。</p>
+<p><strong>表达式兼容：</strong> </p>
+<ul>
+<li>Mapbox GL JS 0.41.0及以上版本。 </li>
+<li>Mapbox Android SDK 6.0.0及更高版本。 </li>
+<li>Mapbox iOS SDK 4.0.0及更高版本。</li>
+</ul>
+</blockquote>
+<h1 id="dataset-数据集合"><a href="#dataset-数据集合" class="headerlink" title="dataset (数据集合)"></a><a href="https://www.mapbox.com/help/define-dataset/" target="_blank" rel="noopener">dataset</a> (数据集合)</h1><blockquote>
+<p><strong>dataset</strong> 是 <a href="https://www.mapbox.com/help/define-geojson" target="_blank" rel="noopener">GeoJSON</a> <a href="https://www.mapbox.com/help/define-features" target="_blank" rel="noopener">features</a> 的可编辑集合。<strong>dataset</strong>可以通过 <code>Mapbox Studio</code> 或 <code>Mapbox Datasets API</code> 上传到 <code>Mapbox</code> ，也可以在 <code>Mapbox Studio</code> 数据集编辑器中进行编辑。<br>有关更多信息，请查看 <a href="https://www.mapbox.com/studio-manual/reference/datasets/" target="_blank" rel="noopener">Mapbox Studio手册</a>。</p>
+</blockquote>
+<h1 id="dataset-ID-数据集ID"><a href="#dataset-ID-数据集ID" class="headerlink" title="dataset ID (数据集ID)"></a><a href="https://www.mapbox.com/help/define-dataset-id/" target="_blank" rel="noopener">dataset ID</a> (数据集ID)</h1><blockquote>
+<p>每次使用  <a href="https://www.mapbox.com/studio/datasets" target="_blank" rel="noopener">Mapbox Studio数据集编辑器</a> 创建数据集时，它都会生成<strong>dataset ID</strong>。您可以使用<strong>dataset ID</strong> <a href="https://www.mapbox.com/api-documentation/#datasets" target="_blank" rel="noopener">Mapbox数据集API</a> 发出与数据集相关的请求。</p>
+</blockquote>
+<hr>
+<h1 id="E"><a href="#E" class="headerlink" title="E"></a>E</h1><hr>
+<h1 id="expression-表达式"><a href="#expression-表达式" class="headerlink" title="expression (表达式)"></a><a href="https://www.mapbox.com/help/define-expression/" target="_blank" rel="noopener">expression</a> (表达式)</h1><blockquote>
+<p><strong>expression</strong> 定义用于计算地图样式中任何布局属性，绘制属性或过滤器的值的公式。表达式允许您一次为多个要素属性设置数据样式，应用条件逻辑，并使用数学，逻辑和字符串运算符操作数据。这允许复杂的 <a href="https://www.mapbox.com/help/define-runtime-styling" target="_blank" rel="noopener">runtime styling</a>。<br>有关在地图样式中使用表达式的更多信息，请查看 <a href="https://www.mapbox.com/mapbox-gl-js/style-spec#expressions" target="_blank" rel="noopener">Mapbox样式规范</a> 或 <a href="https://www.mapbox.com/ios-sdk/api/4.5.0/predicates-and-expressions.html" target="_blank" rel="noopener">Mapbox iOS SDK表达式</a> 参考。</p>
+</blockquote>
+<hr>
+<h1 id="F"><a href="#F" class="headerlink" title="F"></a>F</h1><hr>
+<h1 id="features"><a href="#features" class="headerlink" title="features"></a><a href="https://www.mapbox.com/help/define-features/" target="_blank" rel="noopener">features</a></h1><blockquote>
+<p><strong>features</strong> 指的是数据集或图块集中的地理空间要素。例如，表示休闲公园的单个多边形是可以属于包含城市公园多边形的数据集的特征的一个示例。</p>
+</blockquote>
+<h1 id="feature-querying-要素查询"><a href="#feature-querying-要素查询" class="headerlink" title="feature querying (要素查询)"></a><a href="https://www.mapbox.com/help/define-feature-querying/" target="_blank" rel="noopener">feature querying</a> (要素查询)</h1><blockquote>
+<p><strong>feature querying</strong> 是在特定位置识别区块集中的 <a href="https://www.mapbox.com/help/define-features/" target="_blank" rel="noopener">要素</a> 的过程。例如，如果您有一个带有公园的图层的地图，则可以使用 <code>Mapbox</code> 工具查看特定坐标中是否存在公园要素。</p>
+</blockquote>
+<blockquote>
+<p><strong>feature querying</strong>支持许多高级地图可视化，允许用户选择特定点以发现位于下方的数据。可以使用  <a href="https://www.mapbox.com/mapbox-gl-js/api/#map#queryrenderedfeatures" target="_blank" rel="noopener">Mapbox GL JS</a> ，适用于 <a href="https://www.mapbox.com/ios-sdk/api/4.5.0/Classes/MGLMapView.html#/Accessing%20the%20Underlying%20Map%20Data" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a>,或适用于 <a href="https://www.mapbox.com/android-docs/api/map-sdk/6.6.5/com/mapbox/mapboxsdk/maps/MapboxMap.html#queryRenderedFeatures-android.graphics.PointF-com.mapbox.mapboxsdk.style.layers.Filter.Statement-java.lang.String...-" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a> 在 <code>Web</code> 地图上执行要素查询。</p>
+</blockquote>
+<h1 id="filter-过滤器"><a href="#filter-过滤器" class="headerlink" title="filter (过滤器)"></a><a href="https://www.mapbox.com/help/define-filter/" target="_blank" rel="noopener">filter</a> (过滤器)</h1><blockquote>
+<p><strong>filter</strong>（也就是<code>iOS</code> 和 <code>macOS</code>中的断言）可以对样式层的内容进行细粒度控制。从 <code>GeoJSON</code> 或矢量源获取其功能的样式图层仅包含满足您定义的过滤器或断言条件的功能。<br>有关更多信息，请参阅过 <a href="https://www.mapbox.com/mapbox-gl-js/style-spec/#types-filter" target="_blank" rel="noopener">过滤器</a> 和 <a href="https://www.mapbox.com/ios-sdk/api/https://www.mapbox.com/predicates-and-expressions.html#using-predicates-to-filter-vector-data" target="_blank" rel="noopener">断言</a>的文档。</p>
+</blockquote>
+<h1 id="font-stack-字体堆"><a href="#font-stack-字体堆" class="headerlink" title="font stack (字体堆)"></a><a href="https://www.mapbox.com/help/define-font-stack/" target="_blank" rel="noopener">font stack</a> (字体堆)</h1><blockquote>
+<p><strong>font stack</strong> 是包含主要字体和可选后备字体的字体的有序列表，如图层中所定义。在字体堆中，主要和后备字体的组合定义了渲染器应尝试查找图层中使用的字符的顺序。如果在第一个<strong>font stack</strong>中找不到字符，渲染器将尝试使用下一个字符，直到找到一个。</p>
+</blockquote>
+<p>看完上面官方的描述可能有点懵来看段 <code>ccs</code> 样式:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    font-family: Georgia, &quot;Times New Roman&quot;, serif;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>上面的就是所以的<strong>font stack</strong>，浏览器在加载样式的时候会先从 <code>font-family</code>的属性后面的第一个开始匹配，如果第一个 <code>Georgia</code> 字体找到了，那后面的就不会在找了，如果第一个字体没有找到，浏览器将尝试找下一个字符，直到找到一个为止。</p>
+<blockquote>
+<p>样式对象本身没有<strong>font stack</strong>。<br>相反，单个图层具有自己的<strong>font stack</strong>，这些<strong>font stack</strong>在符号图层的 <a href="https://www.mapbox.com/mapbox-gl-js/style-spec/#layout-symbol-text-font" target="_blank" rel="noopener">text-font</a> 属性中定义，如 <a href="https://www.mapbox.com/mapbox-gl-js/style-spec/" target="_blank" rel="noopener">Mapbox样式规范</a> 中所述。</p>
+</blockquote>
+<blockquote>
+<p>您可以管理样式中使用的<strong>font stack</strong>，以缩短渲染时间并减小离线地图的大小。</p>
+</blockquote>
+<hr>
+<h1 id="G"><a href="#G" class="headerlink" title="G"></a>G</h1><hr>
+<h1 id="geocoding-地理编码"><a href="#geocoding-地理编码" class="headerlink" title="geocoding (地理编码)"></a><a href="https://www.mapbox.com/help/define-geocoding/" target="_blank" rel="noopener">geocoding</a> (地理编码)</h1><blockquote>
+<p><strong>geocoding</strong> 是获取地点的地址或名称并将其转换为纬度和经度值的过程。 <code>Mapbox geocoding API</code> 允许您执行两种类型的地理编码：<strong>Forward geocoding（地理编码）</strong> 和 <strong>Reverse geocoding（逆向地理编码）</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>Forward geocoding</strong> 将文本转换为地理坐标。<br>例如，将2 Lincoln Memorial Circle NW的地址转换为-77.050,38.889的坐标值。</p>
+</blockquote>
+<blockquote>
+<p><strong>Reverse geocoding</strong> 将地理坐标转换为文本描述，例如，将-77.050,38.889转换为2 Lincoln Memorial Circle NW的地址。</p>
+</blockquote>
+<blockquote>
+<p>有关更多信息，请参阅 <a href="https://www.mapbox.com/developers/api/geocoding/" target="_blank" rel="noopener">Mapbox地理编码API文档</a>。</p>
+</blockquote>
+<h1 id="GeoJSON"><a href="#GeoJSON" class="headerlink" title="GeoJSON"></a><a href="https://www.mapbox.com/help/define-geojson/" target="_blank" rel="noopener">GeoJSON</a></h1><blockquote>
+<p><strong>GeoJSON</strong> 是 <code>Mapbox Web</code> 服务和 <code>API</code> 提供的地图数据的文件格式。作为 <code>JSON</code> 格式的子集，它可以在现代软件中解析，并且可以使用 <code>JavaScript</code> 语言本地化。</p>
+</blockquote>
+<blockquote>
+<p>您可以将 <code>GeoJSON</code> 文件上传到 <code>Mapbox</code> 帐户，以便在自定义地图样式中使用。有关详细信息，请参阅 <code>Mapbox Studio</code> 手动上载页面。下面是一个示例 <code>GeoJSON</code> 文件供参考。<a href="https://www.mapbox.com/help/data/stations.geojson" target="_blank" rel="noopener"> Download a sample GeoJSON file</a></p>
+</blockquote>
+<blockquote>
+<p>有几种开源工具可用于将其他地理空间数据格式转换为 <code>GeoJSON</code>。<br>比较受欢迎的有： </p>
+<ul>
+<li><strong>togeojson</strong>，一个用于转换KML和GPX（XML格式）的节点包。 </li>
+<li><strong>ogr2ogr</strong>，最终的40合1矢量数据转换工具。 </li>
+<li><strong>geojson.io</strong>, 用于创建，转换和编辑 <code>GeoJSON</code>。</li>
+</ul>
+</blockquote>
+<h1 id="GPX"><a href="#GPX" class="headerlink" title="GPX"></a><a href="https://www.mapbox.com/help/define-gpx/" target="_blank" rel="noopener">GPX</a></h1><blockquote>
+<p><strong>GPX</strong> 或GPS交换格式是通常由<strong>GPX</strong>接收器创建的数据格式。</p>
+</blockquote>
+<blockquote>
+<p>您可以将 <strong>GPX</strong> 文件上传到 <code>Mapbox</code> 帐户，以便在自定义地图样式中使用。有关详细信息，请参阅 <a href="https://www.mapbox.com/studio-manual/overview/geospatial-data/" target="_blank" rel="noopener">Mapbox Studio手动上传页面</a>。下面是一个示例 <strong>GPX</strong> 文件供参考。</p>
+</blockquote>
+<blockquote>
+<p>请注意，<code>Mapbox</code> 不支持沿线的值（例如，沿着慢跑路线的各个点的海拔和时间）。可以上载沿一行的值的 <strong>GPX</strong> 文件，但 <code>Mapbox</code> 将忽略该行的任何数据。<br><a href="https://www.mapbox.com/help/data/run.gpx" target="_blank" rel="noopener"> Download a sample GPX file</a></p>
+</blockquote>
+<hr>
+<h1 id="I"><a href="#I" class="headerlink" title="I"></a>I</h1><hr>
+<h1 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a><a href="https://www.mapbox.com/help/define-iframe/" target="_blank" rel="noopener">iframe</a></h1><blockquote>
+<p>注意：不推荐使用Mapbox编辑器。<br>您可以在 <a href="https://www.mapbox.com/studio/classic/projects/" target="_blank" rel="noopener">此处</a> 找到现有项目。<br>有关更多信息，请参阅我们的 <a href="https://www.mapbox.com/blog/fall-cleaning" target="_blank" rel="noopener">公告</a> 和  <a href="https://www.mapbox.com/blog/migrating-from-editor/" target="_blank" rel="noopener">迁移Mapbox编辑器项目</a> 指南。</p>
+</blockquote>
+<blockquote>
+<p><code>Mapbox</code> 编辑器会为您生成嵌入代码，以便将地图添加到您的网站或博客中。嵌入代码使用  <code>&lt;iframe&gt;</code> 来显示您的地图。 此 <code>HTML</code> 元素允许您将网页放入另一个网页，从而使您的地图的所有代码与您网站上的代码隔离开来。</p>
+</blockquote>
+<hr>
+<h1 id="K"><a href="#K" class="headerlink" title="K"></a>K</h1><hr>
+<h1 id="KML"><a href="#KML" class="headerlink" title="KML"></a><a href="https://www.mapbox.com/help/define-kml/" target="_blank" rel="noopener">KML</a></h1><blockquote>
+<p><strong>KML</strong> 是一种类似 <code>GeoJSON</code> 的文件格式，但在 <code>Google</code> 产品中更常用。与 <code>GeoJSON</code> 一样，它可以存储点，线，多边形和其他矢量数据。与 <code>GeoJSON</code> 不同，它基于 <code>XML</code> 而不是JSON。</p>
+</blockquote>
+<blockquote>
+<p>您可以将 <code>KML</code> 文件上传到 <code>Mapbox Studio</code> ，以将自定义数据添加到地图中。<br>当您上传 <code>KML</code> 文件时，<code>Mapbox</code> 会将您的数据转换为矢量切片，以便您可以从中创建样式。</p>
+</blockquote>
+<blockquote>
+<p>上传 <code>KML</code> 时，请注意 <code>Mapbox</code> 不支持任何 <code>KML</code> 扩展。有关上载 <code>shapefile</code> 的更多信息，请查看 <a href="https://www.mapbox.com/studio-manual/overview/geospatial-data/" target="_blank" rel="noopener">Mapbox Studio手册上传页面</a>。<a href="https://www.mapbox.com/help/data/farmers_markets.kml" target="_blank" rel="noopener"> Download a sample KML file</a></p>
+</blockquote>
+<hr>
+<h1 id="L"><a href="#L" class="headerlink" title="L"></a>L</h1><hr>
+<h1 id="Landsat-live"><a href="#Landsat-live" class="headerlink" title="Landsat-live"></a><a href="https://www.mapbox.com/help/define-landsat-live/" target="_blank" rel="noopener">Landsat-live</a></h1><blockquote>
+<p><strong>Landsat-live</strong> 拥有世界各地的最新卫星图像。在过去32天内捕获每个像素并直接渲染到我们的图层中。</p>
+</blockquote>
+<blockquote>
+<p>要在项目中使用图像，可以使用 <code>mapbox.landsat-live</code> <a href="https://www.mapbox.com/help/define-map-id" target="_blank" rel="noopener">map ID</a> 将其添加到 <code>Web</code> 地图或移动应用程序中。</p>
+</blockquote>
+<blockquote>
+<p>您还可以使用 <code>mapbox.landsat-live-vt</code> <a href="https://www.mapbox.com/help/define-map-id" target="_blank" rel="noopener">map ID</a> 为矢量流添加矢量轮廓和元数据流。</p>
+</blockquote>
+<h1 id="latitude-and-longitude-纬度和经度"><a href="#latitude-and-longitude-纬度和经度" class="headerlink" title="latitude and longitude (纬度和经度)"></a><a href="https://www.mapbox.com/help/define-lat-lon/" target="_blank" rel="noopener">latitude and longitude</a> (纬度和经度)</h1><blockquote>
+<p><strong>latitude and longitude</strong> 是用于描述 <a href="http://en.wikipedia.org/wiki/Latitude_and_longitude" target="_blank" rel="noopener">地理坐标系</a> 平面上的位置的一对数字（坐标）。数字为十进制度数，纬度为-90至90，经度为-180至180。</p>
+</blockquote>
+<blockquote>
+<p>例如，华盛顿特区的纬度为38.8951，经度为-77.0364。在 <code>API</code> 调用中，您经常会看到数字放在一起并用逗号分隔：-77.0364,38.8951。</p>
+</blockquote>
+<blockquote>
+<p>一个常见问题是混合坐标的顺序。一些工具和API格式化经度，纬度，而其他工具和 <code>API</code> 使用纬度，经度。请务必查看文档以了解如何格式化坐标。如果一个点没有显示您期望的位置 - 通过切换顺序进行故障排除！</p>
+</blockquote>
+<h1 id="layer-层"><a href="#layer-层" class="headerlink" title="layer (层)"></a><a href="https://www.mapbox.com/help/define-layer/" target="_blank" rel="noopener">layer</a> (层)</h1><blockquote>
+<p>在 <a href="https://www.mapbox.com/help/define-style" target="_blank" rel="noopener">样式</a> 中使用图层将样式规则添加到特定的 <a href="https://www.mapbox.com/help/define-tileset" target="_blank" rel="noopener">数据</a> 子集。 （例如，如果您希望地图中的所有河流都是粉红色的，那么您可以为它创建一个样式的图层。）图层包含对数据的引用，它们用于定义样式以及样式要应用的规则。</p>
+</blockquote>
+<blockquote>
+<p>阅读有关 <a href="https://www.mapbox.com/mapbox-gl-style-spec/#layers" target="_blank" rel="noopener">Mapbox样式规范 </a> 中图层的更多信息。</p>
+</blockquote>
+<h1 id="layout-and-paint-properties-布局和绘制属性"><a href="#layout-and-paint-properties-布局和绘制属性" class="headerlink" title="layout and paint properties (布局和绘制属性)"></a><a href="https://www.mapbox.com/help/define-layout-paint-property/" target="_blank" rel="noopener">layout and paint properties</a> (布局和绘制属性)</h1><blockquote>
+<p><strong>layout and paint properties</strong> 是图层的两个子属性，用于定义在 <a href="https://www.mapbox.com/help/define-mapbox-gl/" target="_blank" rel="noopener">Mapbox GL</a> 贴图中如何渲染空间数据。</p>
+</blockquote>
+<blockquote>
+<p><strong>layout properties</strong> 定义如何绘制该图层的数据，并在渲染过程中应用。布局属性的示例包括可见性，线帽和符号放置。</p>
+</blockquote>
+<blockquote>
+<p><strong>paint properties</strong> 定义如何设置该图层的数据样式，并在稍后的渲染属性中应用。涂料属性的示例包括填充颜色，背景图案和线条不透明度。</p>
+</blockquote>
+<blockquote>
+<p>有关<strong>layout and paint properties</strong>的更多信息，请参阅 <a href="https://www.mapbox.com/mapbox-gl-js/style-spec/#layers" target="_blank" rel="noopener">Mapbox样式规范</a>。</p>
+</blockquote>
+<h1 id="Leaflet"><a href="#Leaflet" class="headerlink" title="Leaflet"></a><a href="https://www.mapbox.com/help/define-leaflet/" target="_blank" rel="noopener">Leaflet</a></h1><blockquote>
+<p><strong>Leaflet</strong> 是一个开源的 <code>Web</code> 映射库，它构成了 <code>Mapbox.js</code> 的基础。它是在网页上运行的软件，可以使交互式地图成为可能。 <code>Leaflet</code> 从 <code>Mapbox</code> 等服务器请求切片，显示和动画它们，并支持其他叠加。</p>
+</blockquote>
+<hr>
+<h1 id="M"><a href="#M" class="headerlink" title="M"></a>M</h1><hr>
+<h1 id="Maki"><a href="#Maki" class="headerlink" title="Maki"></a><a href="https://www.mapbox.com/help/define-maki/" target="_blank" rel="noopener">Maki</a></h1><blockquote>
+<p><strong>Maki</strong> 是 <code>Mapbox</code> 为地图设计师开发的一个图标集。它包括公共兴趣点图标，如公园，餐馆，露营地等。 <code>Mapbox Studio</code> 中的每个 <code>Mapbox</code> 模板样式都包含一组风格独特的 <strong>Maki</strong> 图标。</p>
+</blockquote>
+<h1 id="map-ID-地图ID"><a href="#map-ID-地图ID" class="headerlink" title="map ID   (地图ID)"></a><a href="https://www.mapbox.com/help/define-map-id/" target="_blank" rel="noopener">map ID</a>   (地图ID)</h1><blockquote>
+<p>每当您将数据作为图块集上传到您的帐户时，都会获得一个 <strong>map ID</strong>。<strong>map ID</strong>还用于标识使用旧版 <code>Mapbox</code> 编辑器创建的项目以及使用 <code>Mapbox Studio Classic</code> 创建的样式。</p>
+</blockquote>
+<blockquote>
+<p>地图ID将始终以您的 <code>Mapbox</code> 用户名开头，后跟您的 <code>tileset</code> 的唯一句柄：<code>username.handle</code>。请注意，在<code>Mapbox Studio</code> 样式编辑器中创建的样式和上载到 <code>Mapbox Studio</code> 或通过 <code>Mapbox Studio</code> 数据集编辑器创建的数据集没有<strong>map ID</strong> - 它们用 <a href="https://www.mapbox.com/help/define-style-url" target="_blank" rel="noopener">style URLs</a> 和 <a href="https://www.mapbox.com/help/define-dataset-id" target="_blank" rel="noopener">dataset IDs</a> 标识。</p>
+</blockquote>
+<blockquote>
+<p>您可以使用 <a href="https://www.mapbox.com/api-documentation/#maps" target="_blank" rel="noopener">Mapbox Maps API</a> 直接请求 <code>tileset</code>。</p>
+</blockquote>
+<h1 id="map-view"><a href="#map-view" class="headerlink" title="map view"></a><a href="https://www.mapbox.com/help/define-map-view/" target="_blank" rel="noopener">map view</a></h1><blockquote>
+<p><code>Web</code> 地图由单独的切片组成，可在浏览器中快速有效地呈现。当用户通过平移或缩放与地图交互时，会加载更多图块。要跟踪地图的使用情况，已加载的切片数将计为 <strong>map view</strong>。</p>
+</blockquote>
+<blockquote>
+<p> <strong>瓦片可以通过三种方式呈现：</strong></p>
+<ul>
+<li>Mapbox Studio Styles</li>
+<li>Mapbox Static API </li>
+<li>Mapbox Classic Styles</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>每种方法的地图视图都有所不同</p>
+</blockquote>
+<h4 id="Mapbox-Studio-Styles-4-tiles"><a href="#Mapbox-Studio-Styles-4-tiles" class="headerlink" title="Mapbox Studio Styles (4 tiles)"></a>Mapbox Studio Styles (4 tiles)</h4><blockquote>
+<p>使用 <code>Mapbox Studio</code> 样式时，在视口中加载四个图块时会记录单个地图视图。当用户缩放经过缩放16时，可以节省过度索引以节省切片负载。</p>
+</blockquote>
+<h4 id="Mapbox-Static-API-1-request"><a href="#Mapbox-Static-API-1-request" class="headerlink" title="Mapbox Static API (1 request)"></a>Mapbox Static API (1 request)</h4><blockquote>
+<p>当您对 <code>Mapbox Static API</code> 发出单个请求（用于创建静态地图图像）时，会计算一个地图视图。</p>
+</blockquote>
+<h4 id="Mapbox-Studio-Classic-15-tiles"><a href="#Mapbox-Studio-Classic-15-tiles" class="headerlink" title="Mapbox Studio Classic (15 tiles)"></a>Mapbox Studio Classic (15 tiles)</h4><blockquote>
+<p>如果您使用了 <a href="https://www.mapbox.com/help/define-mapbox-editor" target="_blank" rel="noopener">Mapbox编辑器</a> 项目或 <a href="https://www.mapbox.com/help/define-mapbox-studio-classic" target="_blank" rel="noopener">Mapbox Studio Classic</a> 样式，则在地图上加载15个图块时会计算地图视图。</p>
+</blockquote>
+<blockquote>
+<p>这些计数通常适用于大多数网站上的单页面视图。当用户与地图交互时，可以在单个会话期间生成多个地图视图。</p>
+</blockquote>
+<blockquote>
+<p>为什么 <code>Mapbox</code> 工具中每个地图视图的切片数量不同？来自 <code>Mapbox Studio</code> 样式的图块覆盖更多像素，使得 <code>Mapbox Studio</code> 样式中的四个图块大致相当于来自 <code>Mapbox Editor</code> 项目和<code>Mapbox Studio Classic</code> 样式的15个图块。</p>
+</blockquote>
+<blockquote>
+<p>请参阅我们的 <a href="https://www.mapbox.com/pricing" target="_blank" rel="noopener">定价页面</a> ，了解您的计划包含的地图视图数量。如需大批量年度折扣，请联系我们的销售团队，详细了解我们的定制计划产品。</p>
+</blockquote>
+<blockquote>
+<p>对于本机移动应用程序和 <code>Unity</code> 应用程序，<code>Mapbox</code> 通过每月活跃用户而不是地图视图来计算使用情况。</p>
+</blockquote>
+<h1 id="Mapbox-Maps-SDK-for-Android"><a href="#Mapbox-Maps-SDK-for-Android" class="headerlink" title="Mapbox Maps SDK for Android"></a><a href="https://www.mapbox.com/help/define-android-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a></h1><blockquote>
+<p>适用于 <code>Android</code> 的 <code>Mapbox Maps SDK</code> 是一个开源工具集，用于为 <code>Android</code> 设备构建地图应用程序，具有极大的视觉样式和可定制性灵活性。</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><a href="https://www.mapbox.com/android-sdk/" target="_blank" rel="noopener">Maps SDK for Android文档</a></li>
+<li><a href="https://github.com/mapbox/mapbox-gl-native/" target="_blank" rel="noopener">GitHub上的Maps SDK for Android</a></li>
+<li><a href="https://www.mapbox.com/help/first-steps-android-sdk/" target="_blank" rel="noopener">开始使用Android的Mapbox Maps SDK</a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Maps-SDK-for-iOS"><a href="#Mapbox-Maps-SDK-for-iOS" class="headerlink" title="Mapbox Maps SDK for iOS"></a><a href="https://www.mapbox.com/help/define-mapbox-ios-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a></h1><blockquote>
+<p>适用于 <code>iOS</code> 的 <code>Mapbox Maps SDK</code> 是一个开源工具集，用于为 <code>iPhone</code> 和 <code>iPad</code> 设备构建地图应用程序，具有极大的视觉样式和可定制性灵活性。</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><a href="https://www.mapbox.com/ios-sdk/" target="_blank" rel="noopener">Maps SDK for iOS 文档</a></li>
+<li><a href="https://github.com/mapbox/mapbox-gl-native/" target="_blank" rel="noopener">Maps SDK for iOS on GitHub</a></li>
+<li><a href="https://www.mapbox.com/help/first-steps-ios-sdk/" target="_blank" rel="noopener">开始使用ios的Mapbox Maps SDK</a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Directions-API-路线"><a href="#Mapbox-Directions-API-路线" class="headerlink" title="Mapbox Directions API (路线)"></a><a href="https://www.mapbox.com/help/define-directions-api/" target="_blank" rel="noopener">Mapbox Directions API</a> (路线)</h1><blockquote>
+<p>借助 <code>Mapbox Directions API</code>，您可以向地图添加带有转弯路线的路线。 Mapbox提供三种不同的配置文件：驾驶，步行和骑自行车。</p>
+</blockquote>
+<blockquote>
+<p>有关更多信息和示例，请查看：</p>
+<ul>
+<li><a href="https://www.mapbox.com/developers/api/directions/" target="_blank" rel="noopener">路线API文档</a></li>
+<li><a href="https://www.mapbox.com/help/getting-started-directions-api/" target="_blank" rel="noopener">路线 API入门</a></li>
+<li><a href="https://www.mapbox.com/mapbox-gl-js/example/mapbox-gl-directions/" target="_blank" rel="noopener">路线 API的GL JS插件</a></li>
+<li><a href="https://github.com/mapbox/mapbox-directions.js" target="_blank" rel="noopener">Mapbox 路线 API的Leaflet插件 </a></li>
+<li><a href="https://www.mapbox.com/mapbox.js/example/v1.0.0/mapbox-directions/" target="_blank" rel="noopener">Mapbox.js和路线 API插件示例</a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Editor（一个过期的地图编辑器）"><a href="#Mapbox-Editor（一个过期的地图编辑器）" class="headerlink" title="Mapbox Editor（一个过期的地图编辑器）"></a><a href="https://www.mapbox.com/help/define-mapbox-editor/" target="_blank" rel="noopener">Mapbox Editor</a>（一个过期的地图编辑器）</h1><blockquote>
+<p>注意：不推荐使用 <code>Mapbox</code> 编辑器。您可以在 <a href="https://www.mapbox.com/studio/classic/projects/" target="_blank" rel="noopener">这里</a> 找到现有项目。有关更多信息，请参阅我们的 <a href="https://www.mapbox.com/blog/fall-cleaning" target="_blank" rel="noopener">公告</a> 和 <a href="https://www.mapbox.com/blog/migrating-from-editor/" target="_blank" rel="noopener">迁移Mapbox编辑器项目指南</a>。</p>
+</blockquote>
+<blockquote>
+<p><strong>Mapbox Editor</strong> 是一个用于设计地图的在线界面。 <code>Mapbox 编辑器</code> 不再处于快速迭代开发阶段。<br>有关我们最新的地图设计工具，请查看 <a href="https://www.mapbox.com/studio" target="_blank" rel="noopener">Mapbox Studio</a>。</p>
+</blockquote>
+<h1 id="Mapbox-GL"><a href="#Mapbox-GL" class="headerlink" title="Mapbox GL"></a><a href="https://www.mapbox.com/help/define-mapbox-gl/" target="_blank" rel="noopener">Mapbox GL</a></h1><blockquote>
+<p><strong>Mapbox GL</strong> 是一套开源库，用于在 <code>Web</code>，移动和桌面应用程序中嵌入高度可定制和响应的客户端映射。地图以超高帧速率渲染。您可以使用 <code>Mapbox Studio</code> 中设计的自定义样式。您还可以动态操作样式外观的各个方面，因为 <strong>Mapbox GL</strong> 渲染矢量切片。缩写 <code>GL</code> 来自 <code>OpenGL</code> ，行业标准的开放图形库。</p>
+</blockquote>
+<blockquote>
+<p><code>Mapbox GL</code> 在以下平台上得到官方支持：</p>
+<ul>
+<li>在 <code>Web</code> 上，使用 <a href="https://www.mapbox.com/mapbox-gl-js/" target="_blank" rel="noopener">Mapbox GL JS</a>。 </li>
+<li>在 <code>Android</code> 上，使用 <a href="https://www.mapbox.com/android-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a>。 </li>
+<li>在 <code>iOS</code> 上，使用 <a href="https://www.mapbox.com/ios-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a>。 </li>
+<li>在 <code>Qt</code> 上，使用 <a href="https://doc.qt.io/qt-5/location-plugin-mapboxgl.html" target="_blank" rel="noopener">Mapbox Maps SDK for Qt (Qt Location Mapbox GL Plugin)</a>。<br>本机 <code>macOS</code> 应用程序可以使用社区维护 <a href="https://mapbox.github.io/mapbox-gl-native/macos/" target="_blank" rel="noopener">Mapbox Maps SDK for macOS</a></li>
+</ul>
+</blockquote>
+<blockquote>
+<p>如果您希望将 <code>Mapbox</code> 地图合并到混合 <code>Android</code> 或 <code>iOS</code> 应用程序中，请查看我们关于构建 <a href="https://www.mapbox.com/help/hybrid-apps/" target="_blank" rel="noopener">混合应用程序</a> 的页面。请注意，我们无法为混合框架提供支持。</p>
+</blockquote>
+<h1 id="Mapbox-GL-JS"><a href="#Mapbox-GL-JS" class="headerlink" title="Mapbox GL JS"></a><a href="https://www.mapbox.com/help/define-mapbox-gl-js/" target="_blank" rel="noopener">Mapbox GL JS</a></h1><blockquote>
+<p><strong>Mapbox GL JS</strong> 是一个使用 <code>Mapbox GL</code> 渲染交互式地图的 <code>JavaScript</code> 库。它可以免费使用。</p>
+</blockquote>
+<blockquote>
+<p>您可以将 <code>Mapbox Studio</code> 创建的 <a href="https://www.mapbox.com/mapbox-gl-js/examples/" target="_blank" rel="noopener">Mapbox 样式</a> 或 <a href="https://www.mapbox.com/mapbox-gl-js/example/custom-style-id/" target="_blank" rel="noopener">自定义样式</a> 添加到 <strong>Mapbox GL JS</strong> 应用程序中。</p>
+</blockquote>
+<h1 id="Mapbox-js"><a href="#Mapbox-js" class="headerlink" title="Mapbox.js"></a><a href="https://www.mapbox.com/help/define-mapbox-js/" target="_blank" rel="noopener">Mapbox.js</a></h1><blockquote>
+<p><strong>Mapbox.js</strong> 是一个 <code>JavaScript</code> 库，允许您向网站添加交互式地图。它是 <code>Leaflet</code> 的插件，是一个可以免费使用的开源库。</p>
+</blockquote>
+<blockquote>
+<p>您可以将任何 <a href="https://www.mapbox.com/help/define-style/" target="_blank" rel="noopener">Mapbox Studio style</a> 或 <a href="https://www.mapbox.com/help/define-classic-style/" target="_blank" rel="noopener">Mapbox Studio Classic style</a> 用作 <code>Mapbox.js</code> 中的底图。有关更多信息，请参阅 <a href="https://www.mapbox.com/mapbox.js/api/" target="_blank" rel="noopener">Mapbox.js文档</a>。</p>
+</blockquote>
+<h1 id="Mapbox-Map-Matching-API"><a href="#Mapbox-Map-Matching-API" class="headerlink" title="Mapbox Map Matching API"></a><a href="https://www.mapbox.com/help/define-map-matching/" target="_blank" rel="noopener">Mapbox Map Matching API</a></h1><blockquote>
+<p><strong>Mapbox Map Matching API</strong> 允许您记录记录的迹线，例如 <code>GPS</code> 跟踪器中的数据，并将它们捕捉到 <code>OpenStreetMap</code> 道路和路径网络。这有助于对齐嘈杂的轨迹并在地图上干净地显示它们。</p>
+</blockquote>
+<h1 id="Mapbox-Maps-SDK-for-React-Native"><a href="#Mapbox-Maps-SDK-for-React-Native" class="headerlink" title="Mapbox Maps SDK for React Native"></a><a href="https://www.mapbox.com/help/define-mapbox-maps-sdk-for-react-native/" target="_blank" rel="noopener">Mapbox Maps SDK for React Native</a></h1><blockquote>
+<p>适用于 <code>React Native</code> 的 <code>Mapbox Maps SDK</code> 是一个跨平台解决方案，提供可重用的 <code>JavaScript</code> 组件，用于构建 <code>Android</code> 和 <code>iOS</code> 应用程序中的映射和位置。</p>
+<ul>
+<li><a href="https://github.com/mapbox/react-native-mapbox-gl/tree/master/docs" target="_blank" rel="noopener">Maps SDK for React Native文档</a></li>
+<li><a href="https://github.com/mapbox/react-native-mapbox-gl/" target="_blank" rel="noopener">适用于React Native的Maps SDK </a></li>
+<li><a href="https://www.mapbox.com/help/first-steps-react-native-sdk/" target="_blank" rel="noopener">开始使用 React Native Maps SDK </a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Maps-SDK-for-Unity"><a href="#Mapbox-Maps-SDK-for-Unity" class="headerlink" title="Mapbox Maps SDK for Unity"></a><a href="https://www.mapbox.com/help/define-mapbox-maps-sdk-for-unity/" target="_blank" rel="noopener">Mapbox Maps SDK for Unity</a></h1><p><strong>Mapbox Maps SDK for Unity</strong> 是一组用于从真实地图数据构建 <code>Unity</code> 应用程序的工具。它包含一个强大的 <code>API</code>，用于连接 <code>Mapbox Web</code> 服务，将地图资源转换为游戏对象，以及构建在 <code>Unity</code> 平台之上的强大的图形用户界面。</p>
+<blockquote>
+<p>要在您的应用程序中包含Mapbox Maps SDK for Unity，请访问文档页面以获取安装说明，API参考和教程：</p>
+<ul>
+<li><a href="https://www.mapbox.com/unity-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for Unity概述</a></li>
+<li><a href="https://www.mapbox.com/mapbox-unity-sdk/api/" target="_blank" rel="noopener">API文档</a></li>
+<li><a href="https://www.mapbox.com/unity-sdk/tutorials/" target="_blank" rel="noopener">教程</a></li>
+<li><a href="https://www.mapbox.com/help/account-faq/#how-are-unity-apps-priced" target="_blank" rel="noopener">Unity应用的定价</a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Matrix-API-矩阵"><a href="#Mapbox-Matrix-API-矩阵" class="headerlink" title="Mapbox Matrix API (矩阵)"></a><a href="https://www.mapbox.com/help/define-matrix-api/" target="_blank" rel="noopener">Mapbox Matrix API</a> (矩阵)</h1><blockquote>
+<p><strong>Mapbox Matrix API</strong>（以前称为距离 API）计算一个API请求中多个点之间的行程时间。</p>
+</blockquote>
+<blockquote>
+<p><code>Matrix API</code> 返回多个位置之间的行程时间，专门用于构建时间表或矩阵。多播源和目标的数量以创建矩阵或时间表，并计算发出请求所需的元素数量。例如，给定3个位置A，B，C，<code>Matrix API</code> 将返回所有位置之间所有行程时间（以秒为单位）的矩阵：</p>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/5683553-e48edfb448bc40b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="image.png"></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>A → A</td>
+<td>A → B</td>
+<td>A → C</td>
+</tr>
+<tr>
+<td>B</td>
+<td>B → A</td>
+<td>B → B</td>
+<td>B → C</td>
+</tr>
+<tr>
+<td>C</td>
+<td>C → A</td>
+<td>C → B</td>
+<td>C → C     </td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><code>Matrix API</code> 适用于全球范围，可用于驾驶，骑行和步行路线配置文件。详细了解<code>Mapbox Matrix API</code>  <a href="https://www.mapbox.com/help/how-directions-work/" target="_blank" rel="noopener">工作原理教程</a> 。 <code>Mapbox Matrix API</code> 适用于所有计划级别。</p>
+</blockquote>
+<h1 id="Mapbox-Matrix-API-elements"><a href="#Mapbox-Matrix-API-elements" class="headerlink" title="Mapbox Matrix API elements"></a><a href="https://www.mapbox.com/help/define-matrix-api-elements/" target="_blank" rel="noopener">Mapbox Matrix API elements</a></h1><blockquote>
+<p><strong>Mapbox Matrix API</strong> 处理不同大小的批量请求，因此会根据返回的元素数量而不是请求来跟踪 <a href="https://www.mapbox.com/account/statistics/" target="_blank" rel="noopener">计费</a><br>。<br>例如，来自 <code>Matrix API</code> 的一个请求可以是许多不同的源和目标对，因此来自 <code>Matrix API</code> 的一个请求等于源的数量乘以目的地的数量（例如：2个源x 3个目的地等于6个元素）。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-0e9dcc0c8e6e9972.gif?imageMogr2/auto-orient/strip" alt="演示.gif"></p>
+</blockquote>
+<blockquote>
+<p>阅读有关 <code>Mapbox Matrix API</code> 如何在我们全面的方向工作指南中工作的 <a href="https://www.mapbox.com/help/how-directions-work/#mapbox-matrix-api" target="_blank" rel="noopener">更多信息</a>。</p>
+</blockquote>
+<h1 id="Mapbox-Navigation-SDK-导航"><a href="#Mapbox-Navigation-SDK-导航" class="headerlink" title="Mapbox Navigation SDK (导航)"></a><a href="https://www.mapbox.com/help/define-mapbox-navigation-sdk/" target="_blank" rel="noopener">Mapbox Navigation SDK</a> (导航)</h1><blockquote>
+<p><strong>Mapbox Navigation SDK</strong> 构建于 <code>Mapbox Directions API</code> 之上，<code>Mapbox Navigation SDK</code> 包含以下关键功能：</p>
+<ul>
+<li>插入式的turn-by-turn导航UI。</li>
+<li>汽车，自行车和步行路线。</li>
+<li>避免交通堵塞。</li>
+<li>机动公告。</li>
+<li>文字说明。</li>
+<li>文本到语音支持。</li>
+<li>自动重新规划路线。</li>
+<li>快速路线。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>要在应用程序中包含 <code>Mapbox Navigation SDK</code>，请访问相应的文档页面以获取安装说明，API参考和示例代码： </p>
+<ul>
+<li><a href="https://www.mapbox.com/ios-sdk/navigation/" target="_blank" rel="noopener">Mapbox Navigation for iOS</a></li>
+<li><a href="https://www.mapbox.com/android-docs/navigation/" target="_blank" rel="noopener">Mapbox Navigation for Android</a></li>
+</ul>
+</blockquote>
+<h1 id="Mapbox-Satellite-卫星"><a href="#Mapbox-Satellite-卫星" class="headerlink" title="Mapbox Satellite (卫星)"></a><a href="https://www.mapbox.com/help/define-mapbox-satellite/" target="_blank" rel="noopener">Mapbox Satellite</a> (卫星)</h1><blockquote>
+<p><strong>Mapbox Satellite</strong> 是高分辨率卫星图像的全球底图。 图像数据来自各种商业提供商，以及来自 <code>NASA</code>，<code>USGS</code> 和其他公司的开放数据。 它经过颜色校正并混合在一起成为一个光栅图块集。</p>
+</blockquote>
+<blockquote>
+<p><strong>Mapbox Satellite</strong> 免费提供给 <code>Mapbox Studio</code> 样式编辑器中缩放级别0-19的所有用户，以及使用样式URL mapbox：// styles / mapbox / satellite-v9或map ID mapbox.satellite的API和SDK。</p>
+</blockquote>
+<h1 id="Mapbox-Static-API"><a href="#Mapbox-Static-API" class="headerlink" title="Mapbox Static API"></a><a href="https://www.mapbox.com/help/define-static-api/" target="_blank" rel="noopener">Mapbox Static API</a></h1><blockquote>
+<p>您可以使用 <strong>Mapbox Static API</strong> 生成地图的静态图像。 这是在没有 <code>JavaScript</code> 或插件的情况下将地图添加到您的网站或博客的好方法。 每个静态地图图像都计为1个地图视图。</p>
+</blockquote>
+<blockquote>
+<p>如果您正在使用 <code>Mapbox Studio</code> 中的样式，则可以使用 <code>Static API</code> 检索静态图像。</p>
+</blockquote>
+<blockquote>
+<p>如果您使用的是 <code>Mapbox Studio Classic</code>、<code>Mapbox Editor</code>、 <code>Mapbox map ID</code>，请使用<code>Classic Static API</code>。</p>
+</blockquote>
+<blockquote>
+<p>要了解更多信息，请阅读 <a href="https://www.mapbox.com/help/how-static-maps-work/#creating-static-maps" target="_blank" rel="noopener">创建静态地图</a>。</p>
+</blockquote>
+<h1 id="Mapbox-Studio-Classic"><a href="#Mapbox-Studio-Classic" class="headerlink" title="Mapbox Studio Classic"></a><a href="https://www.mapbox.com/help/define-mapbox-studio-classic/" target="_blank" rel="noopener">Mapbox Studio Classic</a></h1><blockquote>
+<p><strong>Mapbox Studio Classic</strong> 是一个用于设计地图的桌面应用程序。 它允许您使用矢量切片和 <code>CartoCSS</code> 创建地图。 <strong>Mapbox Studio Classic</strong> 允许您以 <code>MBTiles</code> 格式将地图直接导出并上传到 <code>Mapbox</code> 帐户，然后与我们的开发人员工具一起使用。</p>
+</blockquote>
+<blockquote>
+<p>创建新地图？<code>Mapbox Studio</code> 是 <strong>Mapbox Studio Classic</strong> 的现代替代品。 如果您今天开始创建地图，我们建议您使用 <code>Mapbox Studio</code> 而不是 <strong>Mapbox Studio Classic</strong>。</p>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/5683553-809d720111fc8871.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="image.png"></p>
+<h1 id="Mapbox-Studio"><a href="#Mapbox-Studio" class="headerlink" title="Mapbox Studio"></a><a href="https://www.mapbox.com/help/define-mapbox-studio/" target="_blank" rel="noopener">Mapbox Studio</a></h1><blockquote>
+<p><strong>Mapbox Studio</strong> 是一个用于创建自定义地图的 <code>Web</code> 应用程序。 您可以管理和创建数据集，切片集和地图样式。</p>
+</blockquote>
+<blockquote>
+<p>要开始使用 <code>Mapbox Studio</code>，请查看 <a href="https://www.mapbox.com/studio-manual/" target="_blank" rel="noopener">Mapbox Studio手册</a>。</p>
+</blockquote>
+<h1 id="Mapbox-Uploads-API-上传"><a href="#Mapbox-Uploads-API-上传" class="headerlink" title="Mapbox Uploads API (上传)"></a><a href="https://www.mapbox.com/help/define-uploads-api/" target="_blank" rel="noopener">Mapbox Uploads API</a> (上传)</h1><blockquote>
+<p>使用 <strong>Mapbox Uploads API</strong>，您可以将 <code>Mapbox</code> 强大的数据上传功能集成到您的应用程序中。 我们提供临时凭证以在 <code>S3</code> 上暂存空间文件，然后将其处理为 <code>Mapbox GL和Mapbox.js</code> 可读的栅格切片或 <code>Mapbox</code> 矢量切片。</p>
+</blockquote>
+<blockquote>
+<p>API支持各种空间文件类型，包括<a href="https://www.mapbox.com/help/define-geojson" target="_blank" rel="noopener">GeoJSON</a>, <a href="https://www.mapbox.com/help/define-kml" target="_blank" rel="noopener">KML</a>, <a href="https://www.mapbox.com/help/define-gpx" target="_blank" rel="noopener">GPX</a>, <a href="https://www.mapbox.com/help/define-shapefile" target="_blank" rel="noopener">Shapefiles</a>, <a href="https://www.mapbox.com/help/define-csv" target="_blank" rel="noopener">CSV</a>, <a href="https://www.mapbox.com/help/define-tiff" target="_blank" rel="noopener">GeoTIFF</a>, and <a href="https://www.mapbox.com/help/define-mbtiles" target="_blank" rel="noopener">MBTiles</a> 我们不断增加对更多类型和更大文件的支持。</p>
+</blockquote>
+<h1 id="Mapbox-web-services-Mapbox-Web服务"><a href="#Mapbox-web-services-Mapbox-Web服务" class="headerlink" title="Mapbox web services (Mapbox Web服务)"></a><a href="https://www.mapbox.com/help/define-rest-api/" target="_blank" rel="noopener">Mapbox web services</a> (Mapbox Web服务)</h1><blockquote>
+<p><strong>Mapbox Web服务</strong> 是 <code>Mapbox</code> 的最低级别接口 - 它们是我们的 <code>JavaScript</code>，<code>Objective-C</code> 和其他系统构建的 <code>API</code>。</p>
+</blockquote>
+<blockquote>
+<p>您可以从任何语言或环境连接到 <strong>Mapbox Web服务</strong> - 您可以使用 <code>Python</code> 请求模块，<code>node.js</code> 请求模块，用于 <code>Ruby</code> 的 <code>HTTParty</code> 或您选择的语言的其他 <code>HTTP</code> 请求库。</p>
+</blockquote>
+<h1 id="mapnik"><a href="#mapnik" class="headerlink" title="mapnik"></a><a href="https://www.mapbox.com/help/define-mapnik/" target="_blank" rel="noopener">mapnik</a></h1><blockquote>
+<p><strong>Mapnik</strong> 是一个开源地图工具包，用于桌面和基于服务器的地图渲染，为空间数据访问和可视化提供算法和模式。 它是地理对象的集合，如地图，图层，数据源，要素和几何。</p>
+</blockquote>
+<blockquote>
+<p><strong>Mapnik</strong> 用于在从 <a href="https://www.mapbox.com/api-documentation/#maps" target="_blank" rel="noopener">Mapbox Maps API</a> 请求切片时呈现 <a href="https://www.mapbox.com/help/define-classic-style/" target="_blank" rel="noopener">classic styles</a>。 它还用于在 <a href="https://www.mapbox.com/help/define-mapbox-studio-classic/" target="_blank" rel="noopener">Mapbox Studio Classic</a> 中渲染地图。</p>
+</blockquote>
+<h1 id="marker-地图中的标记"><a href="#marker-地图中的标记" class="headerlink" title="marker (地图中的标记)"></a><a href="https://www.mapbox.com/help/define-marker/" target="_blank" rel="noopener">marker</a> (地图中的标记)</h1><blockquote>
+<p>在 <code>Web</code> 地图中，标记通常是地图上特定坐标的直观表示。 可以通过各种方式添加和自定义标记，以便在 <code>Mapbox Web</code> 地图和移动应用程序中使用。 您可以在我们的添加自定义图标和 <a href="https://www.mapbox.com/help/markers/" target="_blank" rel="noopener">标记指南</a> 中阅读有关可视化点数据的选项以及查找分步教程的更多信息。</p>
+</blockquote>
+<h1 id="MBTiles"><a href="#MBTiles" class="headerlink" title="MBTiles"></a><a href="https://www.mapbox.com/help/define-mbtiles/" target="_blank" rel="noopener">MBTiles</a></h1><blockquote>
+<p><strong>MBTiles</strong> 是用于存储 <code>tileset</code> 的文件格式。 它的设计使您可以打包组成 <code>tileset</code> 的潜在数千个文件并移动它们，最终上传到 <code>Mapbox</code> 或在 <code>Web</code> 或移动应用程序中使用。 <code>MBTiles</code> 是一个开放的规范，基于 <code>SQLite</code> 数据库。 <code>MBTiles</code> 可以包含栅格或矢量 <code>tileset</code>。</p>
+</blockquote>
+<blockquote>
+<p>您可以导出 <code>MBTiles</code> 格式的 <code>Mapbox Studio Classic</code> 源以直接上载到 <code>Mapbox Studio</code>。 有关详细信息，请参阅 <a href="https://www.mapbox.com/help/define-mapbox-studio" target="_blank" rel="noopener">Mapbox Studio</a> 手动上载页面。 </p>
+</blockquote>
+<blockquote>
+<p>下面是一个示例MBTiles文件供参考。<br><a href="https://www.mapbox.com/help/data/trails.mbtiles" target="_blank" rel="noopener"> Download sample MBTiles</a></p>
+</blockquote>
+<h1 id="monthly-active-users-月活跃用户"><a href="#monthly-active-users-月活跃用户" class="headerlink" title="monthly active users (月活跃用户)"></a><a href="https://www.mapbox.com/help/define-monthly-active-users/" target="_blank" rel="noopener">monthly active users</a> (月活跃用户)</h1><blockquote>
+<p>对于使用适用于 <code>iOS</code>，<code>Android</code>，<code>React Native</code> 或 <code>Unity</code> 的 <code>Mapbox Maps SDK</code> 构建的本机移动应用程序，我们会跟踪每月活跃用户<code>（MAU）</code>，也称为移动用户，而不是地图视图。 这是在给定月份内访问应用程序中的地图的用户数。</p>
+</blockquote>
+<blockquote>
+<p>请参阅我们的定价页面，了解您的计划包含的移动用户数量。 如果没有符合您需求的计划，<a href="https://www.mapbox.com/contact/sales" target="_blank" rel="noopener">请联系我们的销售团队</a> 以了解有关我们的自定义计划产品。</p>
+</blockquote>
+<blockquote>
+<p>对于使用任何其他API构建的地图，我们会计算 <a href="https://www.mapbox.com/help/define-map-view/" target="_blank" rel="noopener">每月地图视图</a>。</p>
+</blockquote>
+<hr>
+<h1 id="O"><a href="#O" class="headerlink" title="O"></a>O</h1><hr>
+<h1 id="offline-regions-and-offline-packs-离线区域和离线包"><a href="#offline-regions-and-offline-packs-离线区域和离线包" class="headerlink" title="offline regions and offline packs (离线区域和离线包)"></a><a href="https://www.mapbox.com/help/define-offline-region/" target="_blank" rel="noopener">offline regions and offline packs</a> (离线区域和离线包)</h1><blockquote>
+<p><strong>offline regions</strong>（也称为适用于 <code>iOS</code> 的 <code>Mapbox Maps SDK</code> 中的脱机包）是地图的已定义区域，可用于具有有限网络连接或无网络连接的条件，使用适用于 <a href="https://www.mapbox.com/ios-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a> 和  <a href="https://www.mapbox.com/android-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a>。 有关更多信息，请查看我们的<a href="https://www.mapbox.com/help/mobile-offline/" target="_blank" rel="noopener">离线地图指南</a>。</p>
+</blockquote>
+<h1 id="OpenStreetMap-（OSM维基百科）"><a href="#OpenStreetMap-（OSM维基百科）" class="headerlink" title="OpenStreetMap （OSM维基百科）"></a><a href="https://www.mapbox.com/help/define-osm/" target="_blank" rel="noopener">OpenStreetMap</a> （<strong><a href="https://en.wikipedia.org/wiki/OpenStreetMap" target="_blank" rel="noopener">OSM维基百科</a></strong>）</h1><blockquote>
+<p><strong>OpenStreetMap</strong> 是一个<a href="https://en.wikipedia.org/wiki/Virtual_community" title="虚拟社区" target="_blank" rel="noopener">合作项目</a>，以创造一个<a href="https://en.wikipedia.org/wiki/Free_content" title="免费内容" target="_blank" rel="noopener">自由</a>编辑<a href="https://en.wikipedia.org/wiki/Map" title="地图" target="_blank" rel="noopener">地图</a>的世界，任何人都可以向该地图贡献数据。<strong>OpenStreetMap</strong> 的数据可以免费共享和使用。<code>Mapbox Streets tileset</code> 源数据源自<strong>OpenStreetMap</strong>。 为<code>Directions API</code>和相关 <code>API</code> 提供支持的路由网络也基于<strong>OpenStreetMap</strong>。</p>
+</blockquote>
+<h1 id="overzoom"><a href="#overzoom" class="headerlink" title="overzoom"></a><a href="https://www.mapbox.com/help/define-overzoom/" target="_blank" rel="noopener">overzoom</a></h1><blockquote>
+<p><strong>Overzoom</strong> 是 <code>tileset</code> 被放大超出其给定缩放范围的结果。</p>
+</blockquote>
+<blockquote>
+<p>如果出现 <strong>Overzoom</strong> ，则光栅图块集将显得不清晰。 例如，如果要显示 <code>z0</code> 和 <code>z6</code> 之间缩放范围的光栅图块集，如果缩放到 <code>z6</code> 之后的更高缩放级别，图像将变得模糊且难以看清。</p>
+</blockquote>
+<blockquote>
+<p>由于矢量数据不是以基于像素的格式存储，而是从一系列点，线和多边形进行编码和计算，因此过度变换的效果对于矢量图块集并不明显。 因此，矢量数据可以被过度显示并可视化以进行缩放22。</p>
+</blockquote>
+<hr>
+<h1 id="P"><a href="#P" class="headerlink" title="P"></a>P</h1><hr>
+<h1 id="projection-投影"><a href="#projection-投影" class="headerlink" title="projection (投影)"></a><a href="https://www.mapbox.com/help/define-projection/" target="_blank" rel="noopener">projection</a> (投影)</h1><blockquote>
+<p><strong>projection</strong> 是将行星上的位置坐标转换为二维平面的方法。 <code>Mapbox</code> 支持流行的 <a href="http://en.wikipedia.org/wiki/Mercator_projection" target="_blank" rel="noopener">Web Mercator projection</a>。 <code>Web Mercator</code> 被绝大多数 <code>Web</code> 地图采用，它的使用允许您将 <code>Mapbox</code> 地图与同一投影中的其他图层结合使用。</p>
+</blockquote>
+<hr>
+<h1 id="Q"><a href="#Q" class="headerlink" title="Q"></a>Q</h1><hr>
+<h1 id="quadtree"><a href="#quadtree" class="headerlink" title="quadtree"></a><a href="https://www.mapbox.com/help/define-quadtree/" target="_blank" rel="noopener">quadtree</a></h1><blockquote>
+<p><strong>quadtree</strong> 是树数据结构，其中每个节点恰好有4个子节点。 <strong>quadtree</strong>允许您放大和缩小地图。 随着缩放级别的改变，四边形会更改以显示更多（或更少）细节。</p>
+</blockquote>
+<hr>
+<h1 id="R"><a href="#R" class="headerlink" title="R"></a>R</h1><hr>
+<h1 id="raster-data-栅格数据"><a href="#raster-data-栅格数据" class="headerlink" title="raster data (栅格数据)"></a><a href="https://www.mapbox.com/help/define-raster/" target="_blank" rel="noopener">raster data</a> (栅格数据)</h1><blockquote>
+<p><strong>raster data</strong> 是一种基于像素的数据格式，可有效地表示连续曲面。 光栅中的信息存储在网格结构中，每个信息单元或像素具有相同的大小和形状，但值不同。 所有数码照片都以这种格式存储，也称为位图。 这包括卫星图像和正射摄影。</p>
+</blockquote>
+<blockquote>
+<p>您可以将<strong>raster data</strong>上传到 <code>Mapbox Studio</code>，以将自定义数据添加到地图中。 有关<strong>raster data</strong>的更多信息，请查看 <a href="https://www.mapbox.com/studio-manual/overview/geospatial-data/" target="_blank" rel="noopener">Mapbox Studio手动上载页面</a>。</p>
+</blockquote>
+<h1 id="routing-profile-路线配置文件"><a href="#routing-profile-路线配置文件" class="headerlink" title="routing profile (路线配置文件)"></a><a href="https://www.mapbox.com/help/define-routing-profile/" target="_blank" rel="noopener">routing profile</a> (路线配置文件)</h1><blockquote>
+<p><strong>routing profile</strong> 是路线引擎（如 <code>Mapbox Directions API</code>）用于查找两点之间的最佳路由的一组规则。 <strong>routing profile</strong>通常针对用于在位置之间进行的运输模式进行优化。</p>
+</blockquote>
+<blockquote>
+<p>有关 <code>Mapbox Directions API</code> 中使用的路由配置文件的详细信息，请参阅 <a href="https://www.mapbox.com/developers/api/directions" target="_blank" rel="noopener">文档</a> 。</p>
+</blockquote>
+<h1 id="runtime-styling-运行时样式"><a href="#runtime-styling-运行时样式" class="headerlink" title="runtime styling (运行时样式)"></a><a href="https://www.mapbox.com/help/define-runtime-styling/" target="_blank" rel="noopener">runtime styling</a> (运行时样式)</h1><blockquote>
+<p><strong>runtime styling</strong> 允许您实时动态更改 <code>Mapbox</code> 地图上显示的地图样式，允许您自定义地图外观的每个方面，直至最小的细节。</p>
+</blockquote>
+<blockquote>
+<p>您可以更改地图以响应用户交互，上下文，或通过在运行时访问地图的各个层来构建复杂的数据可视化。 例如，您可以根据一天中的时间使地图变亮或变暗，根据用户活动个性化公园的颜色，甚至根据用户偏好更改标签语言。</p>
+</blockquote>
+<blockquote>
+<p>您可以在 <code>Mapbox Studio</code> 中设计任何内容，也可以通过代码实现。 所有依赖 <a href="https://www.mapbox.com/help/define-mapbox-gl/" target="_blank" rel="noopener">Mapbox GL</a> 的产品都提供运行时样式。</p>
+</blockquote>
+<hr>
+<h1 id="S"><a href="#S" class="headerlink" title="S"></a>S</h1><hr>
+<h1 id="shapefile"><a href="#shapefile" class="headerlink" title="shapefile"></a><a href="https://www.mapbox.com/help/define-shapefile/" target="_blank" rel="noopener">shapefile</a></h1><blockquote>
+<p><strong>shapefile</strong> 也称为 <code>Esri shapefile</code>，是用于存储地理矢量数据的文件格式。</p>
+</blockquote>
+<blockquote>
+<p>您可以将<strong>shapefile</strong>上传到 <code>Mapbox Studio</code>，以将自定义数据添加到地图中。 上传<strong>shapefile</strong>时，<code>Mapbox</code> 会将数据转换为矢量切片，以便您可以从中创建样式。</p>
+</blockquote>
+<blockquote>
+<p>上传 <code>shapefile</code> 时，请记住以下几点：</p>
+<ul>
+<li>查看Mapbox Uploads API文档，了解<strong>shapefile</strong>的当前大小限制。 请注意，此限制适用于<strong>shapefile</strong>的未压缩大小，而不是压缩 <code>zip</code> 的大小。</li>
+<li><strong>shapefile</strong>由几个单独的文件组成，在上传之前应该将它们组合成一个 <code>zip</code> 文件。 在这些文件中，<code>Mapbox</code> 可以读取 <code>shp</code>，<code>shx</code>，<code>dbf</code>，<code>prj</code> 和 <code>index</code> 文件。 使用 <code>zip</code>文件上传的任何其他文件都将被忽略。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>有关上载shapefile的更多信息，请查看<a href="https://www.mapbox.com/studio-manual/overview/geospatial-data/" target="_blank" rel="noopener">Mapbox Studio手册上传页面</a>。<br><a href="https://www.mapbox.com/help/data/stations.zip" target="_blank" rel="noopener"> Download a sample shapefile</a></p>
+</blockquote>
+<h1 id="simplestyle"><a href="#simplestyle" class="headerlink" title="simplestyle "></a><a href="https://www.mapbox.com/help/define-simplestyle/" target="_blank" rel="noopener">simplestyle </a></h1><blockquote>
+<p><strong>Simplestyle</strong> 是一种用于样式化 <code>GeoJSON</code> 数据的开源规范。</p>
+</blockquote>
+<h1 id="source-layer-资源图层"><a href="#source-layer-资源图层" class="headerlink" title="source layer  (资源图层)"></a><a href="https://www.mapbox.com/help/define-source-layer/" target="_blank" rel="noopener">source layer </a> (资源图层)</h1><blockquote>
+<p><strong>source layer</strong> 是矢量资源中的特定图层。 矢量资源可以有多个层。 您可以在以下几个位置找到<strong>source layer</strong>的名称：</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>特定 <code>tileset</code> 的 <code>tileset</code> 信息页面。</li>
+<li>在 <code>Mapbox Studio</code> 的样式编辑器使用<strong><em>Select data tab</em></strong>。</li>
+<li>在 <code>Mapbox Studio</code> 样式编辑器中，使用工具栏中的<strong><em>Style reference</em></strong>选项。</li>
+</ul>
+</blockquote>
+<h4 id="Tileset-信息页面"><a href="#Tileset-信息页面" class="headerlink" title="Tileset 信息页面"></a>Tileset 信息页面</h4><blockquote>
+<p>要在tileset中查找源图层：</p>
+<ol>
+<li>访问您的<a href="https://www.mapbox.com/studio/tilesets/" target="_blank" rel="noopener">Tilesets页面</a>。</li>
+<li>单击其中一个tileset的名称。</li>
+<li>将打开tileset信息页面，您可以在Layer details标题下找到源图层。</li>
+</ol>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/5683553-9aadc2caf2c51c98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="image.png"></p>
+<h4 id="在Mapbox-Studio样式编辑器中选择data"><a href="#在Mapbox-Studio样式编辑器中选择data" class="headerlink" title="在Mapbox Studio样式编辑器中选择data"></a>在Mapbox Studio样式编辑器中选择data</h4><blockquote>
+<p>要查找Mapbox样式中使用的源图层的名称，请执行以下操作：</p>
+<ol>
+<li>在Mapbox Studio样式编辑器中打开样式。</li>
+<li>单击图层列表中图层的名称。</li>
+<li>切换到<strong><em>Select data</em></strong>选项卡。</li>
+<li>找到tileset源名称下面列出的源图层。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>在下面的示例中，图层名为place-city-label-major，源图层是Mapbox Streets图块集源中的place_label图层。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-19fbc96488d5ea9b.gif?imageMogr2/auto-orient/strip" alt="define-source-layer.gif"></p>
+</blockquote>
+<h4 id="Mapbox-Studio-Style-editor中的样式引用"><a href="#Mapbox-Studio-Style-editor中的样式引用" class="headerlink" title="Mapbox Studio Style editor中的样式引用"></a>Mapbox Studio Style editor中的样式引用</h4><blockquote>
+<p>要查找Mapbox样式中使用的源图层的名称，请执行以下操作：</p>
+<ol>
+<li>在Mapbox Studio样式编辑器中打开样式。</li>
+<li>单击右上方工具栏中的样式参考选项。</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>在下面的示例中，源图层称为waterway_label，该图层称为waterway-label。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-35084278722bcb52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="toolbar-style-reference-source-layer.png"></p>
+</blockquote>
+<h1 id="source-数据源"><a href="#source-数据源" class="headerlink" title="source  (数据源)"></a><a href="https://www.mapbox.com/help/define-source/" target="_blank" rel="noopener">source </a> (数据源)</h1><blockquote>
+<p><strong>source</strong> 提供要在Mapbox GL的地图上显示的数据。 <strong>source</strong>由 <code>Mapbox</code> 样式规范定义，并与样式层一起使用，以直观地表示地图上的<strong>source</strong>数据。 根据您正在开发的平台，可能不支持特定的<strong>source</strong>类型，因此在向地图添加<strong>source</strong>时请参阅<a href="https://www.mapbox.com/developers/" target="_blank" rel="noopener">特定于平台的文档</a>。</p>
+</blockquote>
+<h1 id="sprite"><a href="#sprite" class="headerlink" title="sprite"></a><a href="https://www.mapbox.com/help/define-sprite/" target="_blank" rel="noopener">sprite</a></h1><blockquote>
+<p><strong>sprite</strong> 是包含样式中包含的所有图标的单个图像。 <strong>sprite</strong>通常用于网络开发甚至视频游戏，以提高性能。 通过将大量小图像组合成单个图像（<strong>sprite</strong>），您可以减少获取所有图像所需的请求数量，从而提高性能并使地图更快。</p>
+</blockquote>
+<blockquote>
+<p>如果您使用的是 <code>Mapbox Studio</code>，则无需担心<strong>sprite</strong>的技术基础：上传 <code>SVG</code> 图标会自动创建地图将使用的<strong>sprite</strong>。 同样，所有 <code>Mapbox</code> 模板样式都带有自己的<strong>sprite</strong>，其中包含可以与该样式一起使用的图标。 调试面板中的<strong><em>Images</em></strong>选项显示<strong>sprite</strong>中使用的像素数量。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-7130cea4bbe18bd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="spritesheet-usage.png"></p>
+</blockquote>
+<blockquote>
+<p>如果您想自己动手或者对引擎盖下的内容感兴趣，您也可以创建自己的<strong>sprite</strong>。 这是所有术语和<strong>sprite</strong>如何工作的概述。</p>
+</blockquote>
+<blockquote>
+<p><strong>sprite</strong>将许多图标组合成一个图像：<br><img src="https://upload-images.jianshu.io/upload_images/5683553-74fc7f4b276932a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="sprite.png"></p>
+</blockquote>
+<blockquote>
+<p>图标是<strong>sprite</strong>中的单个图像：<br><img src="https://upload-images.jianshu.io/upload_images/5683553-76d9207d9108e03e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100" alt="airport-15.png"></p>
+</blockquote>
+<blockquote>
+<p><strong>sprite</strong>限制为500个图标。 每个图标最大可以为512x512像素，最大文件大小为400KB。 每个<strong>sprite</strong>都有一个免费的 <code>JSON</code> 文件，用于定义每个图标，包括图标在<strong>sprite</strong>中的大小和位置 - 有点像每个图标的方向：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&quot;airport-15&quot;: &#123;</span><br><span class="line">  &quot;width&quot;: 42,</span><br><span class="line">  &quot;height&quot;: 42,</span><br><span class="line">  &quot;x&quot;: 76,</span><br><span class="line">  &quot;y&quot;: 300,</span><br><span class="line">  &quot;pixelRatio&quot;: 2,</span><br><span class="line">  &quot;visible&quot;: true</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这意味着您可以按名称引用图标，例如 <code>airport-15</code>，我们的地图渲染器将引用 <code>JSON</code> 文件以获取有关图标的数据，然后仅显示该特定图标的<strong>sprite</strong>。</p>
+</blockquote>
+<blockquote>
+<p>要了解有关创建和编辑<strong>sprite</strong>的更多信息，请查看<a href="https://www.mapbox.com/mapbox-gl-style-spec/#sprite" target="_blank" rel="noopener">Mapbox 样式参考：<strong>sprite</strong></a>。</p>
+</blockquote>
+<h1 id="style-ID"><a href="#style-ID" class="headerlink" title="style ID "></a><a href="https://www.mapbox.com/help/define-style-id/" target="_blank" rel="noopener">style ID </a></h1><blockquote>
+<p><strong>style ID</strong> 是与任何 <code>Mapbox</code> 用户名关联的每种样式的唯一标识符。 要使用 <code>Mapbox</code> 样式 <code>API</code>，您需要知道正在使用的地图样式的<strong>style ID</strong>。</p>
+</blockquote>
+<blockquote>
+<p>每次使用 <code>Mapbox Studio</code> 创建样式时，它都会生成样式 <code>URL</code> 。 样式 <code>URL</code> 包括<strong>style ID</strong>(mapbox://styles/{username}/{style_ID}).。 例如，在以下样式URL中，<code>mapbox</code> 是用户名，light-v9是样式ID<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mapbox://styles/mapbox/light-v9</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><a href="https://www.mapbox.com/help/define-style-url/" target="_blank" rel="noopener">学习更多 style URL</a></p>
+<h1 id="style-optimized-vector-tiles-优化矢量切片"><a href="#style-optimized-vector-tiles-优化矢量切片" class="headerlink" title="style-optimized vector tiles  (优化矢量切片)"></a><a href="https://www.mapbox.com/help/define-style-optimized-vector-tiles/" target="_blank" rel="noopener">style-optimized vector tiles </a> (优化矢量切片)</h1><blockquote>
+<p>通过  <code>Mapbox Maps API</code> 提供的<strong>style-optimized vector tiles</strong>会删除切片中未由 <code>Mapbox</code> 样式表示的任何图层或特征。 <strong>style-optimized vector tiles</strong>较小，通过线上服务，是减少离线缓存大小的好方法。</p>
+</blockquote>
+<blockquote>
+<p>例如，假设您的样式引用了具有四个图层的图块集：露营地，山脉，林地和建筑物。 最终地图包括露营地图标，森林图案和蓝山图案，但不使用建筑物。 在普通的 <code>Mapbox GL</code> 地图中，加载的图块包括所有四个图层，即使它们并非全部都需要。 风格优化的矢量瓷砖仅包括露营地，林地和蓝山。 它会根据属性和缩放级别删除未使用的图层和要素。</p>
+</blockquote>
+<p><img src="https://upload-images.jianshu.io/upload_images/5683553-5c072c64ccdff446.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" alt="style-optimized-illustration.png"></p>
+<blockquote>
+<p>您可以在 <code>Mapbox GL JS</code> 中使用<strong>style-optimized vector tiles</strong>，方法是在样式 <code>URL</code> 的末尾添加？optimize = true：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var map = new mapboxgl.Map(&#123;</span><br><span class="line">  container: &apos;map&apos;,</span><br><span class="line">  style: &apos;mapbox://styles/mapbox/outdoors-v9?optimize=true&apos; // optimize=true</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h1 id="style-URL"><a href="#style-URL" class="headerlink" title="style URL "></a><a href="https://www.mapbox.com/help/define-style-url/" target="_blank" rel="noopener">style URL </a></h1><blockquote>
+<p>每次使用 <code>Mapbox Studio</code> 创建样式时，它都会生成<strong>style URL</strong>。 <strong>style URL</strong>允许您使用 <code>Mapbox GL JS API</code> 或本机 <code>SDK</code> 引用该特定样式。</p>
+</blockquote>
+<blockquote>
+<p>您可以在 <code>Mapbox Studio</code> 的 <a href="https://www.mapbox.com/studio/styles" target="_blank" rel="noopener">Styles page</a> 上找到样式 <code>URL</code>。 单击样式旁边的 <strong><em>Menu</em></strong> 按钮以显示其样式 <code>URL</code> 。 单击图标以复制样式<code>URL</code> 。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-4cf9bb4b95296225.gif?imageMogr2/auto-orient/strip" alt="style-url.gif"></p>
+</blockquote>
+<h1 id="style-样式"><a href="#style-样式" class="headerlink" title="style  (样式)"></a><a href="https://www.mapbox.com/help/define-style/" target="_blank" rel="noopener">style </a> (样式)</h1><blockquote>
+<p><strong>style</strong> 是定义地图视觉外观的文档。 样式使用 <code>Mapbox Studio</code> 样式编辑器创建或单独编写并上载到您的帐户。 它们遵循 <code>Mapbox</code> 样式规范，并包含有关数据源，样式图层，精灵(<a href="https://www.mapbox.com/help/define-sprite/" target="_blank" rel="noopener">sprite</a>)，字形和元数据的信息。 <strong>style</strong> 由<code>Mapbox GL JS</code>，适用于 <a href="https://www.mapbox.com/help/define-android-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for Android</a> ，适用于 <a href="https://www.mapbox.com/help/define-android-sdk/" target="_blank" rel="noopener">Mapbox Maps SDK for iOS</a> 或 <a href="https://www.mapbox.com/help/define-static-api/" target="_blank" rel="noopener">Mapbox Static API</a>。</p>
+</blockquote>
+<blockquote>
+<p>有关样式的更多信息，请查看 <a href="https://www.mapbox.com/studio-manual/reference/styles/" target="_blank" rel="noopener">Mapbox Studio手册</a>。</p>
+</blockquote>
+<h1 id="SVG-可缩放矢量图形"><a href="#SVG-可缩放矢量图形" class="headerlink" title="SVG (可缩放矢量图形)"></a><a href="https://www.mapbox.com/help/define-svg/" target="_blank" rel="noopener">SVG</a> (可缩放矢量图形)</h1><blockquote>
+<p><strong>SVG</strong> 是一种用于描述二维矢量图形的标记语言。</p>
+</blockquote>
+<blockquote>
+<p>您可以在 <code>Mapbox Studio</code> 样式编辑器中将<strong>SVG</strong>图像上载到自定义样式。 您可以单击调试面板中的 <strong><em>Images</em></strong> 选项来管理您的样式中的<strong>SVG</strong>。<br><img src="https://upload-images.jianshu.io/upload_images/5683553-de5201774fca5e0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="manage-style-images.png"></p>
+</blockquote>
+<p>请参阅以下指南以开始使用：</p>
+<ul>
+<li><p><a href="https://www.mapbox.com/help/add-points-pt-2/" target="_blank" rel="noopener">在Mapbox Studio 和 Mapbox GL JS 中自定义标记</a></p>
+</li>
+<li><p><a href="https://www.mapbox.com/help/studio-troubleshooting-svg/" target="_blank" rel="noopener">故障排除：Mapbox Studio中的SVG资源错误</a></p>
+</li>
+</ul>
+<p><a href="https://www.mapbox.com/help/data/bicycle-24.svg" target="_blank" rel="noopener"> Download sample SVG image</a></p>
+<hr>
+<h1 id="T"><a href="#T" class="headerlink" title="T"></a>T</h1><hr>
+<h1 id="telemetry-测量"><a href="#telemetry-测量" class="headerlink" title="telemetry  (测量)"></a><a href="https://www.mapbox.com/help/define-telemetry/" target="_blank" rel="noopener">telemetry </a> (测量)</h1><blockquote>
+<p><strong>telemetry</strong> 是一个过程，其中自动传感器通过收集关于人们移动的位置和方式的匿名数据来创建和更新地图。 这对于发现丢失的道路，跟踪交通信息等非常有用。</p>
+</blockquote>
+<h1 id="TIFF-文件格式"><a href="#TIFF-文件格式" class="headerlink" title="TIFF  (文件格式)"></a><a href="https://www.mapbox.com/help/define-tiff/" target="_blank" rel="noopener">TIFF </a> (文件格式)</h1><blockquote>
+<p><strong>TIFF</strong>（有时是TIF）是用于保存光栅图像的文件格式。 使用 <code>Mapbox</code> ，<strong>TIFF</strong>通常是<code>GeoTIFF</code>，这意味着文件嵌入了地理配准信息。</p>
+</blockquote>
+<blockquote>
+<p>您可以在 <code>Mapbox Studio</code> 中将TIFF文件作为 <code>tileset</code> 上传，并在 <code>Mapbox Studio</code> 样式编辑器中使用它们。</p>
+</blockquote>
+<blockquote>
+<p>您还可以将<strong>TIFF</strong>文件导入 <code>Mapbox Studio Classic</code> 并以此方式上传到 <code>Mapbox</code> 作为 <code>tileset</code> 。 上传<strong>TIFF</strong>文件时，请记住<a href="https://www.mapbox.com/help/upload-troubleshooting" target="_blank" rel="noopener">TIFF文件当前的大小限制</a>。<br><a href="https://www.mapbox.com/help/data/landsat.tif" target="_blank" rel="noopener"> Download a sample TIFF file</a></p>
+</blockquote>
+<h1 id="TileJSON"><a href="#TileJSON" class="headerlink" title="TileJSON "></a><a href="https://www.mapbox.com/help/define-tilejson/" target="_blank" rel="noopener">TileJSON </a></h1><blockquote>
+<p><strong>TileJSON</strong>是一种用于描述 <code>tileset</code> 的格式。 它会跟踪请求 <code>tileset</code> 的位置，<code>tileset</code> 的名称以及使用 <code>tileset</code> 时所需的任何属性。 您可以使用 <a href="https://www.mapbox.com/api-documentation/#retrieve-tilejson-metadata" target="_blank" rel="noopener">Mapbox Maps API</a> 检索<strong>TileJSON</strong>元数据。</p>
+</blockquote>
+<h1 id="TileMill"><a href="#TileMill" class="headerlink" title="TileMill "></a><a href="https://www.mapbox.com/help/define-tilemill/" target="_blank" rel="noopener">TileMill </a></h1><blockquote>
+<p><strong>TileMill</strong> 是一个用于设计地图的桌面应用程序。 <strong>TileMill</strong>不再处于积极开发阶段。 对于我们最新的地图设计工具，请检查和<a href="https://www.mapbox.com/studio-manual/" target="_blank" rel="noopener">Mapbox Studio</a>。</p>
+</blockquote>
+<h1 id="tileset"><a href="#tileset" class="headerlink" title="tileset "></a><a href="https://www.mapbox.com/help/define-tileset/" target="_blank" rel="noopener">tileset </a></h1><blockquote>
+<p><strong>tileset</strong> 是一组光栅或矢量数据，分为22个预设缩放级别的均匀方块网格。 <strong>tileset</strong>在  <code>Mapbox</code> 库和 <code>SDK</code> 中用作在移动设备或浏览器中显示地图的核心部分。 它们也是我们用于确定地图视图的主要机制。</p>
+</blockquote>
+<blockquote>
+<p><strong>tileset</strong>可高度缓存并快速加载。 <code>Mapbox</code> 在很大程度上依赖于栅格和矢量<strong>tileset</strong>来保持我们的地图快速高效。 有关使用<strong>tileset</strong>的更多信息，请查看<a href="https://www.mapbox.com/studio-manual/reference/tilesets/" target="_blank" rel="noopener">Mapbox Studio手册</a>。</p>
+</blockquote>
+<h4 id="Tilesets可以是Raster或Vector。-差异概述如下："><a href="#Tilesets可以是Raster或Vector。-差异概述如下：" class="headerlink" title="Tilesets可以是Raster或Vector。 差异概述如下："></a>Tilesets可以是<strong>Raster</strong>或<strong>Vector</strong>。 差异概述如下：</h4><h5 id="Raster-tilesets-栅格"><a href="#Raster-tilesets-栅格" class="headerlink" title="Raster tilesets (栅格)"></a>Raster tilesets (栅格)</h5><blockquote>
+<p>将光栅图像作为 <code>TIFF / GeoTIFF</code>上传到 <code>Mapbox Studio</code> 时会创建光栅图块集。 它们在现代和经典 <code>Mapbox</code> 工具中使用，将地图显示为可在必要时在地图上加载的图像网格。 您可以在<a href="https://www.mapbox.com/help/define-mapbox-studio" target="_blank" rel="noopener">Mapbox Studio</a>, <a href="https://www.mapbox.com/help/define-mapbox-gl-js" target="_blank" rel="noopener">Mapbox GL JS</a>, 和 <a href="https://www.mapbox.com/mobile" target="_blank" rel="noopener">Mapbox Mobile SDKs</a> 中使用<strong>Raster tilesets</strong>。</p>
+</blockquote>
+<blockquote>
+<p>传统的Web地图库（如 <code>Mapbox.js</code> 和 <code>Leaflet</code> ）也使用栅格切片在网页上显示地图。  <code>Mapbox Studio Classic</code> 中创建的所有经典样式也包含<strong>Raster tilesets</strong>。</p>
+</blockquote>
+<h5 id="Vector-tilesets-矢量"><a href="#Vector-tilesets-矢量" class="headerlink" title="Vector tilesets (矢量)"></a>Vector tilesets (矢量)</h5><blockquote>
+<p><strong>Vector tilesets</strong> 是栅格tilesets的矢量数据 - 不是以像素的形式存储栅格数据，<strong>Vector tilesets</strong> 以点，线和多边形的形式存储矢量数据作为矢量tile。 <strong>Vector tilesets</strong>可以被操纵和查询。 它们可以用作样式的来源或直接查询以使用 <a href="https://www.mapbox.com/mobile" target="_blank" rel="noopener">Mapbox Mobile SDKs</a> 和 <a href="https://www.mapbox.com/help/define-mapbox-gl-js" target="_blank" rel="noopener">Mapbox GL JS</a> 创建交互式体验。</p>
+</blockquote>
+<blockquote>
+<p>将矢量数据（<a href="https://www.mapbox.com/help/define-geojson" target="_blank" rel="noopener">GeoJSON</a>, <a href="https://www.mapbox.com/help/define-shapefile" target="_blank" rel="noopener">Shapefile</a>, <a href="https://www.mapbox.com/help/define-kml" target="_blank" rel="noopener">KML</a>, 或 <a href="https://www.mapbox.com/help/define-gpx" target="_blank" rel="noopener">GPX</a>）上传到 <code>Mapbox</code> 帐户时，您的数据会自动转换为矢量图块集。</p>
+</blockquote>
+<h1 id="Turf-js"><a href="#Turf-js" class="headerlink" title="Turf.js"></a><a href="https://www.mapbox.com/help/define-turf/" target="_blank" rel="noopener">Turf.js</a></h1><blockquote>
+<p><strong>Turf.js</strong> 是一个用于空间分析的 <code>JavaScript</code> 库。 它包括传统的空间操作，用于创建<code>GeoJSON</code> 数据的辅助函数，以及数据分类和统计工具。 <strong>Turf.js</strong>可以作为客户端插件添加到您的网站，或者您可以使用 <code>Node.js</code> 运行 <code>Turf</code> 服务器端。 你可以在<a href="https://github.com/turfjs/turf" target="_blank" rel="noopener">GitHub</a>上找到源代码。</p>
+</blockquote>
+<hr>
+<h1 id="V"><a href="#V" class="headerlink" title="V"></a>V</h1><hr>
+<h1 id="vector-tiles-矢量切片"><a href="#vector-tiles-矢量切片" class="headerlink" title="vector tiles (矢量切片)"></a><a href="https://www.mapbox.com/help/define-vector-tiles/" target="_blank" rel="noopener">vector tiles</a> (矢量切片)</h1><blockquote>
+<p><strong>vector tiles</strong> 是一种轻量级数据格式，用于存储地理空间矢量数据，例如点，线和多边形。 <code>Mapbox</code> 几乎在我们所有的工具和服务中使用<strong>vector tiles</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>vector tiles</strong>根据矢量图块规范对地理信息进行编码，是矢量图块集背后的关键成分。 您可以在<a href="https://www.mapbox.com/developers/vector-tiles" target="_blank" rel="noopener">我们的开发者页面</a>上详细了解<strong>vector tiles</strong>的工作原理以及创建<strong>vector tiles</strong>的工具。</p>
+</blockquote>
+<hr>
+<h1 id="Z"><a href="#Z" class="headerlink" title="Z"></a>Z</h1><hr>
+<h1 id="zoom-extent-缩放范围"><a href="#zoom-extent-缩放范围" class="headerlink" title="zoom extent  (缩放范围)"></a><a href="https://www.mapbox.com/help/define-zoom-extent/" target="_blank" rel="noopener">zoom extent </a> (缩放范围)</h1><blockquote>
+<p><strong>zoom extent</strong> 是图块集可见的缩放级别范围。 您可以通过从 <a href="https://www.mapbox.com/studio/tilesets" target="_blank" rel="noopener">Tilesets page</a> 中选择 <code>tileset</code>来查看 <code>tileset</code> 的<strong>zoom extent</strong>。</p>
+</blockquote>
+<blockquote>
+<p>在 <code>Mapbox Studio</code> 中创建切片集时，会指定缩放范围以限制其可见性并确保地图数据有效呈现。 通过仅在某些缩放级别渲染 <code>tileset</code> ，较低分辨率的数据将不会出现在较高的缩放级别，并且详细数据不会以较低的缩放级别混乱地图。 如果要更改 <code>tileset</code> 的缩放范围，可以使用 <a href="https://www.mapbox.com/help/adjust-tileset-zoom-extent/" target="_blank" rel="noopener">其他Mapbox工具</a>。</p>
+</blockquote>
+<h1 id="zoom-level-缩放级别"><a href="#zoom-level-缩放级别" class="headerlink" title="zoom level (缩放级别)"></a><a href="https://www.mapbox.com/help/define-zoom-level/" target="_blank" rel="noopener">zoom level</a> (缩放级别)</h1><blockquote>
+<p><strong>zoom level</strong> 决定了地图的可见程度：在缩放级别0，您可以看到整个世界，在缩放级别16，您可以看到一条小路。 该数据存储在 <a href="https://www.mapbox.com/help/define-quadtree" target="_blank" rel="noopener">quadtree</a> 数据结构中。 缩放级别还会影响加载的矢量切片的大小。</p>
+</blockquote>
+<hr>
+<hr>
+<p><strong><em>到此Mapbox词汇表相关的术语翻译完成，欢迎 👏 指正。</em></strong></p>
+<p>本文原创出自 <a href="https://giantss.github.io/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/">https://giantss.github.io/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/</a> 翻版必究</p>
 
       
 
@@ -220,6 +987,25 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">地图</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Mapbox</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">翻译</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -270,7 +1056,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://giantss.github.io/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://giantss.github.io/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -284,18 +1070,9 @@
   
 <nav id="article-nav">
   
-    <a href="/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义)
-        
-      </div>
-    </a>
   
-  
-    <a href="/blog/2018/10/13/Redux-for-react-native-指南/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Redux for react native 指南</div>
+    <a href="/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">一个mvp框架的简单号码归属地信息查询demo</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -323,7 +1100,7 @@
   
   <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="一个mvp框架的简单号码归属地信息查询demo" data-title="一个mvp框架的简单号码归属地信息查询demo" data-url="https://giantss.github.io/blog/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/"></div>
+	<div class="ds-thread" data-thread-key="Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义" data-title="Mapbox词汇表中文文档(查找Mapbox相关的术语及其定义)" data-url="https://giantss.github.io/blog/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -346,8 +1123,8 @@
   <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 <script>
   var cloudTieConfig = {
-    url: "https://giantss.github.io/blog/blog/2018/10/31/一个mvp框架的简单号码归属地信息查询demo/", 
-    sourceId: "一个mvp框架的简单号码归属地信息查询demo",
+    url: "https://giantss.github.io/blog/blog/2018/11/07/Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义/", 
+    sourceId: "Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义",
     productKey: "true",
     target: "cloud-tie-wrapper"
   };
@@ -356,7 +1133,7 @@
   
 
   
-  <div id="SOHUCS" sid="一个mvp框架的简单号码归属地信息查询demo" ></div> 
+  <div id="SOHUCS" sid="Mapbox词汇表中文文档-查找Mapbox相关的术语及其定义" ></div> 
 <script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
